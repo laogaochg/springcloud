@@ -1,0 +1,6050 @@
+[
+  {
+    "code": "AAL",
+    "continent": "欧洲",
+    "country": "丹麦",
+    "englishName": "Aalborg",
+    "id": "0",
+    "name": "奥尔堡"
+  },
+  {
+    "code": "ABZ",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "ABERDEEN",
+    "id": "1",
+    "name": "阿伯丁"
+  },
+  {
+    "code": "ABR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Aberdeen",
+    "id": "2",
+    "name": "阿伯丁"
+  },
+  {
+    "code": "ABJ",
+    "continent": "非洲",
+    "country": "科特迪瓦",
+    "englishName": "Abidjan",
+    "id": "3",
+    "name": "阿比让"
+  },
+  {
+    "code": "AUH",
+    "continent": "亚洲",
+    "country": "阿联酋",
+    "englishName": "Abu Dhabi",
+    "id": "4",
+    "name": "阿布扎比"
+  },
+  {
+    "code": "ABV",
+    "continent": "非洲",
+    "country": "尼日利亚",
+    "englishName": "Abuja",
+    "id": "5",
+    "name": "阿布贾"
+  },
+  {
+    "code": "ACC",
+    "continent": "非洲",
+    "country": "加纳",
+    "englishName": "Accra",
+    "id": "6",
+    "name": "阿克拉"
+  },
+  {
+    "code": "ADA",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Adana",
+    "id": "7",
+    "name": "阿达那"
+  },
+  {
+    "code": "ADL",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Adelaide",
+    "id": "8",
+    "name": "阿德莱德"
+  },
+  {
+    "code": "AMD",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Ahmedabad",
+    "id": "9",
+    "name": "艾哈迈达巴德"
+  },
+  {
+    "code": "AJA",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Ajaccio",
+    "id": "10",
+    "name": "阿雅克肖"
+  },
+  {
+    "code": "CAK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Akron",
+    "id": "11",
+    "name": "阿克伦城"
+  },
+  {
+    "code": "ALB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Albany",
+    "id": "12",
+    "name": "奥尔巴尼"
+  },
+  {
+    "code": "ABQ",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Albuquerque",
+    "id": "13",
+    "name": "阿尔伯克基"
+  },
+  {
+    "code": "ESF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Alexandria",
+    "id": "14",
+    "name": "亚历山大"
+  },
+  {
+    "code": "AHO",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Alghero",
+    "id": "15",
+    "name": "安齐奥（撒丁岛）"
+  },
+  {
+    "code": "ALG",
+    "continent": "非洲",
+    "country": "阿尔及利亚",
+    "englishName": "Algiers",
+    "id": "16",
+    "name": "阿尔及尔"
+  },
+  {
+    "code": "ALC",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "ALICANTE",
+    "id": "17",
+    "name": "阿利坎特"
+  },
+  {
+    "code": "ABE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Allentown",
+    "id": "18",
+    "name": "亚林镇"
+  },
+  {
+    "code": "ALA",
+    "continent": "亚洲",
+    "country": "哈萨克斯坦",
+    "englishName": "Almaty",
+    "id": "19",
+    "name": "阿拉木图"
+  },
+  {
+    "code": "AOR",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Alor Setar",
+    "id": "20",
+    "name": "亚罗士打"
+  },
+  {
+    "code": "ACH",
+    "continent": "欧洲",
+    "country": "瑞士",
+    "englishName": "Altenrhein",
+    "id": "21",
+    "name": "艾尔特瑞恩"
+  },
+  {
+    "code": "AMA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Amarillo",
+    "id": "22",
+    "name": "阿马里洛"
+  },
+  {
+    "code": "AMM",
+    "continent": "亚洲",
+    "country": "约旦",
+    "englishName": "Amman",
+    "id": "23",
+    "name": "安曼"
+  },
+  {
+    "code": "AMS",
+    "continent": "欧洲",
+    "country": "荷兰",
+    "englishName": "AMSTERDAM",
+    "id": "24",
+    "name": "阿姆斯特丹"
+  },
+  {
+    "code": "ANC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Anchorage",
+    "id": "25",
+    "name": "安克雷奇"
+  },
+  {
+    "code": "AOI",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "ANCONA",
+    "id": "26",
+    "name": "安科纳"
+  },
+  {
+    "code": "QXG",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Angers",
+    "id": "27",
+    "name": "昂热（火车站）"
+  },
+  {
+    "code": "ANK",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "ANKARA",
+    "id": "28",
+    "name": "安卡拉"
+  },
+  {
+    "code": "NCY",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Annecy",
+    "id": "29",
+    "name": "阿讷西"
+  },
+  {
+    "code": "AYT",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Antalya",
+    "id": "30",
+    "name": "安塔利亚"
+  },
+  {
+    "code": "TNR",
+    "continent": "非洲",
+    "country": "马达加斯加",
+    "englishName": "Antananarivo",
+    "id": "31",
+    "name": "塔那那利佛"
+  },
+  {
+    "code": "ANR",
+    "continent": "欧洲",
+    "country": "比利时",
+    "englishName": "ANTWERP",
+    "id": "32",
+    "name": "安特卫普"
+  },
+  {
+    "code": "ATW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Appleton",
+    "id": "33",
+    "name": "阿普尔顿"
+  },
+  {
+    "code": "ACV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Arcata",
+    "id": "34",
+    "name": "阿卡达"
+  },
+  {
+    "code": "AUA",
+    "continent": "南美洲",
+    "country": "阿鲁巴",
+    "englishName": "Aruba",
+    "id": "35",
+    "name": "阿鲁巴"
+  },
+  {
+    "code": "ASB",
+    "continent": "亚洲",
+    "country": "土库曼斯坦",
+    "englishName": "Ashgabat",
+    "id": "36",
+    "name": "阿什巴哈德"
+  },
+  {
+    "code": "ASE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Aspen",
+    "id": "37",
+    "name": "白杨镇"
+  },
+  {
+    "code": "TSE",
+    "continent": "亚洲",
+    "country": "哈萨克斯坦",
+    "englishName": "Astana",
+    "id": "38",
+    "name": "阿斯塔纳"
+  },
+  {
+    "code": "OVD",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "ASTURIAS",
+    "id": "39",
+    "name": "阿斯图利亚斯"
+  },
+  {
+    "code": "ATH",
+    "continent": "欧洲",
+    "country": "希腊",
+    "englishName": "Athens",
+    "id": "40",
+    "name": "雅典"
+  },
+  {
+    "code": "ATL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Atlanta",
+    "id": "41",
+    "name": "亚特兰大"
+  },
+  {
+    "code": "AIY",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Atlantic City",
+    "id": "42",
+    "name": "大西洋城"
+  },
+  {
+    "code": "GUW",
+    "continent": "亚洲",
+    "country": "哈萨克斯坦",
+    "englishName": "Atyrau",
+    "id": "43",
+    "name": "阿特劳"
+  },
+  {
+    "code": "AKL",
+    "continent": "大洋洲",
+    "country": "新西兰",
+    "englishName": "Auckland",
+    "id": "44",
+    "name": "奥克兰"
+  },
+  {
+    "code": "AUG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Augusta",
+    "id": "45",
+    "name": "奥古斯塔"
+  },
+  {
+    "code": "AUS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Austin",
+    "id": "46",
+    "name": "奥斯丁"
+  },
+  {
+    "code": "AVN",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "AVIGNON",
+    "id": "47",
+    "name": "阿维尼翁"
+  },
+  {
+    "code": "BCD",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Bacolod",
+    "id": "48",
+    "name": "巴科洛德"
+  },
+  {
+    "code": "BAH",
+    "continent": "亚洲",
+    "country": "巴林",
+    "englishName": "Bahrain",
+    "id": "49",
+    "name": "巴林"
+  },
+  {
+    "code": "BFL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bakersfield",
+    "id": "50",
+    "name": "贝克斯菲尔德"
+  },
+  {
+    "code": "BAK",
+    "continent": "亚洲",
+    "country": "阿塞拜疆",
+    "englishName": "Baku",
+    "id": "51",
+    "name": "巴库"
+  },
+  {
+    "code": "DPS",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Bali",
+    "id": "52",
+    "name": "巴厘"
+  },
+  {
+    "code": "BPN",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Balikpapan",
+    "id": "53",
+    "name": "巴厘巴板"
+  },
+  {
+    "code": "BWI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Baltimore",
+    "id": "54",
+    "name": "巴尔的摩"
+  },
+  {
+    "code": "BKO",
+    "continent": "非洲",
+    "country": "马里",
+    "englishName": "Bamako",
+    "id": "55",
+    "name": "巴马科"
+  },
+  {
+    "code": "BWN",
+    "continent": "亚洲",
+    "country": "文莱",
+    "englishName": "Bandar Seribegaw",
+    "id": "56",
+    "name": "斯里巴加湾"
+  },
+  {
+    "code": "BLR",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Bangalore",
+    "id": "57",
+    "name": "班加罗尔"
+  },
+  {
+    "code": "BKK",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Bangkok",
+    "id": "58",
+    "name": "曼谷"
+  },
+  {
+    "code": "BGR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bangor",
+    "id": "59",
+    "name": "班戈"
+  },
+  {
+    "code": "BGF",
+    "continent": "非洲",
+    "country": "中非共和国",
+    "englishName": "Bangui",
+    "id": "60",
+    "name": "班吉"
+  },
+  {
+    "code": "BCN",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "BARCELONA",
+    "id": "61",
+    "name": "巴塞罗那"
+  },
+  {
+    "code": "BRI",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Bari",
+    "id": "62",
+    "name": "巴里"
+  },
+  {
+    "code": "BSL",
+    "continent": "欧洲",
+    "country": "瑞士",
+    "englishName": "Basel",
+    "id": "63",
+    "name": "巴塞尔"
+  },
+  {
+    "code": "BIA",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Bastia",
+    "id": "64",
+    "name": "巴斯蒂亚"
+  },
+  {
+    "code": "BTR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Baton Rouge",
+    "id": "65",
+    "name": "巴吞鲁日"
+  },
+  {
+    "code": "BEY",
+    "continent": "亚洲",
+    "country": "黎巴嫩",
+    "englishName": "Beirut",
+    "id": "66",
+    "name": "贝鲁特"
+  },
+  {
+    "code": "BFS",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "Belfast",
+    "id": "67",
+    "name": "贝尔法斯特"
+  },
+  {
+    "code": "BHD",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "Belfast City Apt",
+    "id": "68",
+    "name": "贝尔法斯特（城市机场）"
+  },
+  {
+    "code": "BEG",
+    "continent": "欧洲",
+    "country": "南斯拉夫",
+    "englishName": "Belgrade",
+    "id": "69",
+    "name": "贝尔格莱德"
+  },
+  {
+    "code": "BLI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bellinghan",
+    "id": "70",
+    "name": "贝灵汉"
+  },
+  {
+    "code": "BJI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bemidji",
+    "id": "71",
+    "name": "伯米吉"
+  },
+  {
+    "code": "BGO",
+    "continent": "欧洲",
+    "country": "挪威",
+    "englishName": "Bergen",
+    "id": "72",
+    "name": "卑尔根"
+  },
+  {
+    "code": "BER",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Berlin",
+    "id": "73",
+    "name": "柏林"
+  },
+  {
+    "code": "BRN",
+    "continent": "欧洲",
+    "country": "瑞士",
+    "englishName": "BERNE",
+    "id": "74",
+    "name": "伯尔尼"
+  },
+  {
+    "code": "BIQ",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Biarritz",
+    "id": "75",
+    "name": "比亚丽兹"
+  },
+  {
+    "code": "BIO",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "BILBAO",
+    "id": "76",
+    "name": "毕尔巴鄂"
+  },
+  {
+    "code": "BIL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Billings",
+    "id": "77",
+    "name": "毕林斯"
+  },
+  {
+    "code": "BLL",
+    "continent": "欧洲",
+    "country": "丹麦",
+    "englishName": "Billund",
+    "id": "78",
+    "name": "比伦"
+  },
+  {
+    "code": "BGM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Binghamton",
+    "id": "79",
+    "name": "宾厄姆顿"
+  },
+  {
+    "code": "BTU",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Bintulu",
+    "id": "80",
+    "name": "民都鲁"
+  },
+  {
+    "code": "BHM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Birmingham",
+    "id": "81",
+    "name": "伯明翰"
+  },
+  {
+    "code": "BHX",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "BIRMINGHAM",
+    "id": "82",
+    "name": "伯明翰"
+  },
+  {
+    "code": "FRU",
+    "continent": "亚洲",
+    "country": "吉尔吉斯坦",
+    "englishName": "Bishkek",
+    "id": "83",
+    "name": "比什凯克"
+  },
+  {
+    "code": "BIS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bismark",
+    "id": "84",
+    "name": "俾斯麦"
+  },
+  {
+    "code": "BMI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bloomington",
+    "id": "85",
+    "name": "布鲁明顿"
+  },
+  {
+    "code": "BJV",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Bodrum Milas",
+    "id": "86",
+    "name": "博德鲁姆"
+  },
+  {
+    "code": "BOG",
+    "continent": "南美洲",
+    "country": "哥伦比亚",
+    "englishName": "Bogota",
+    "id": "87",
+    "name": "波哥达"
+  },
+  {
+    "code": "BOI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Boise",
+    "id": "88",
+    "name": "博伊西"
+  },
+  {
+    "code": "BLQ",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "BOLOGNA",
+    "id": "89",
+    "name": "博罗尼亚"
+  },
+  {
+    "code": "BON",
+    "continent": "南美洲",
+    "country": "荷属安的列斯",
+    "englishName": "Bonaire",
+    "id": "90",
+    "name": "博内尔"
+  },
+  {
+    "code": "BOD",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Bordeauxtz",
+    "id": "91",
+    "name": "波尔多"
+  },
+  {
+    "code": "BOS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Boston",
+    "id": "92",
+    "name": "波斯顿"
+  },
+  {
+    "code": "BZN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bozeman",
+    "id": "93",
+    "name": "波兹曼"
+  },
+  {
+    "code": "BRD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Brainerd",
+    "id": "94",
+    "name": "布锐内德"
+  },
+  {
+    "code": "BZV",
+    "continent": "非洲",
+    "country": "刚果",
+    "englishName": "Brazzaville",
+    "id": "95",
+    "name": "布拉柴维尔"
+  },
+  {
+    "code": "BRE",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Bremen",
+    "id": "96",
+    "name": "不来梅"
+  },
+  {
+    "code": "BES",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Brest",
+    "id": "97",
+    "name": "布雷斯特"
+  },
+  {
+    "code": "BDS",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Brindisi",
+    "id": "98",
+    "name": "布林迪西"
+  },
+  {
+    "code": "BNE",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Brisbane",
+    "id": "99",
+    "name": "布里斯班"
+  },
+  {
+    "code": "BRS",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "Bristol",
+    "id": "100",
+    "name": "布里斯托"
+  },
+  {
+    "code": "TRI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Bristol",
+    "id": "101",
+    "name": "布里斯托尔"
+  },
+  {
+    "code": "BRU",
+    "continent": "欧洲",
+    "country": "比利时",
+    "englishName": "BRUSSELS",
+    "id": "102",
+    "name": "布鲁塞尔"
+  },
+  {
+    "code": "ZYR",
+    "continent": "欧洲",
+    "country": "比利时",
+    "englishName": "Brussels",
+    "id": "103",
+    "name": "布鲁塞尔（火车站）"
+  },
+  {
+    "code": "BUH",
+    "continent": "欧洲",
+    "country": "罗马尼亚",
+    "englishName": "BUCHAREST",
+    "id": "104",
+    "name": "布加勒斯特"
+  },
+  {
+    "code": "BUD",
+    "continent": "欧洲",
+    "country": "匈牙利",
+    "englishName": "BUDAPEST",
+    "id": "105",
+    "name": "布达佩斯"
+  },
+  {
+    "code": "BUE",
+    "continent": "南美洲",
+    "country": "阿根廷",
+    "englishName": "Buenos Aires",
+    "id": "106",
+    "name": "布宜诺斯艾利斯"
+  },
+  {
+    "code": "BUF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Buffalo",
+    "id": "107",
+    "name": "布法罗"
+  },
+  {
+    "code": "BUR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Burbank",
+    "id": "108",
+    "name": "布班克"
+  },
+  {
+    "code": "BTV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Burlington",
+    "id": "109",
+    "name": "伯灵顿"
+  },
+  {
+    "code": "BTM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Butte",
+    "id": "110",
+    "name": "布特"
+  },
+  {
+    "code": "BXU",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Butuan",
+    "id": "111",
+    "name": "武端"
+  },
+  {
+    "code": "CFR",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Caen",
+    "id": "112",
+    "name": "卡昂"
+  },
+  {
+    "code": "CGY",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Cagayan De Oro",
+    "id": "113",
+    "name": "卡加延-德奥罗"
+  },
+  {
+    "code": "CAG",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "CAGLIARI",
+    "id": "114",
+    "name": "卡利亚里"
+  },
+  {
+    "code": "CNS",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Cairns",
+    "id": "115",
+    "name": "凯恩斯"
+  },
+  {
+    "code": "CAI",
+    "continent": "非洲",
+    "country": "埃及",
+    "englishName": "Cairo",
+    "id": "116",
+    "name": "开罗"
+  },
+  {
+    "code": "CCU",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Calcutta",
+    "id": "117",
+    "name": "加尔格达"
+  },
+  {
+    "code": "YYC",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Calgary",
+    "id": "118",
+    "name": "卡尔加里"
+  },
+  {
+    "code": "CLY",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Calvi",
+    "id": "119",
+    "name": "卡尔维"
+  },
+  {
+    "code": "YBL",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Campbell River",
+    "id": "120",
+    "name": "坎贝尔河"
+  },
+  {
+    "code": "CBR",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Canberra",
+    "id": "121",
+    "name": "堪培拉"
+  },
+  {
+    "code": "CPT",
+    "continent": "非洲",
+    "country": "南非",
+    "englishName": "Cape Town",
+    "id": "122",
+    "name": "开普敦"
+  },
+  {
+    "code": "CCS",
+    "continent": "南美洲",
+    "country": "委内瑞拉",
+    "englishName": "Caracas",
+    "id": "123",
+    "name": "加拉加斯"
+  },
+  {
+    "code": "CWL",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "CARDIFF",
+    "id": "124",
+    "name": "加的夫"
+  },
+  {
+    "code": "CAS",
+    "continent": "非洲",
+    "country": "摩洛哥",
+    "englishName": "Casablanca",
+    "id": "125",
+    "name": "卡萨布兰卡"
+  },
+  {
+    "code": "CTA",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "CATANIA",
+    "id": "126",
+    "name": "卡塔尼亚"
+  },
+  {
+    "code": "CAY",
+    "continent": "南美洲",
+    "country": "法属圭亚那",
+    "englishName": "Cayenne",
+    "id": "127",
+    "name": "卡宴"
+  },
+  {
+    "code": "CEB",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Cebu",
+    "id": "128",
+    "name": "宿务"
+  },
+  {
+    "code": "CID",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Cedar Rapids",
+    "id": "129",
+    "name": "锡达拉皮兹"
+  },
+  {
+    "code": "CDR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Chadron",
+    "id": "130",
+    "name": "内布拉斯加"
+  },
+  {
+    "code": "CMI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Champaign",
+    "id": "131",
+    "name": "香槟市"
+  },
+  {
+    "code": "CRW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Charieston",
+    "id": "132",
+    "name": "查尔斯顿"
+  },
+  {
+    "code": "CHS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Charleston,SC",
+    "id": "133",
+    "name": "查理斯敦"
+  },
+  {
+    "code": "CLT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Charlotte",
+    "id": "134",
+    "name": "夏洛特"
+  },
+  {
+    "code": "CHO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Charlottesville",
+    "id": "135",
+    "name": "弗吉尼亚"
+  },
+  {
+    "code": "YYG",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Charlottetown",
+    "id": "136",
+    "name": "夏络特镇"
+  },
+  {
+    "code": "CHA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Chattanooga",
+    "id": "137",
+    "name": "查塔努加"
+  },
+  {
+    "code": "CJU",
+    "continent": "亚洲",
+    "country": "韩国",
+    "englishName": "Cheju",
+    "id": "138",
+    "name": "济州岛"
+  },
+  {
+    "code": "MAA",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Chennai",
+    "id": "139",
+    "name": "金奈"
+  },
+  {
+    "code": "CJJ",
+    "continent": "亚洲",
+    "country": "韩国",
+    "englishName": "Cheong Ju City",
+    "id": "140",
+    "name": "青州"
+  },
+  {
+    "code": "CNX",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Chiang Mai",
+    "id": "141",
+    "name": "清迈"
+  },
+  {
+    "code": "CEI",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Chiang Rai",
+    "id": "142",
+    "name": "清莱"
+  },
+  {
+    "code": "CHI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Chicago",
+    "id": "143",
+    "name": "芝加哥"
+  },
+  {
+    "code": "MDW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Chicago Midway Airport",
+    "id": "144",
+    "name": "芝加哥（中途岛机场）"
+  },
+  {
+    "code": "ORD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Chicago O'Hare",
+    "id": "145",
+    "name": "芝加哥（奥黑尔机场）"
+  },
+  {
+    "code": "CIC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Chico",
+    "id": "146",
+    "name": "Chico"
+  },
+  {
+    "code": "KIV",
+    "continent": "欧洲",
+    "country": "摩尔多瓦",
+    "englishName": "CHISINAU",
+    "id": "147",
+    "name": "基辛那乌"
+  },
+  {
+    "code": "CGP",
+    "continent": "亚洲",
+    "country": "孟加拉国",
+    "englishName": "Chittagong",
+    "id": "148",
+    "name": "吉大港"
+  },
+  {
+    "code": "CHC",
+    "continent": "大洋洲",
+    "country": "新西兰",
+    "englishName": "Christchurch",
+    "id": "149",
+    "name": "基督城"
+  },
+  {
+    "code": "CVG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Cincinnati",
+    "id": "150",
+    "name": "辛辛那提"
+  },
+  {
+    "code": "CLE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Cleveland",
+    "id": "151",
+    "name": "克里福兰"
+  },
+  {
+    "code": "COK",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Cochin",
+    "id": "152",
+    "name": "科钦"
+  },
+  {
+    "code": "CGN",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "COLOGNE",
+    "id": "153",
+    "name": "科隆"
+  },
+  {
+    "code": "CMB",
+    "continent": "亚洲",
+    "country": "斯里兰卡",
+    "englishName": "Colombo",
+    "id": "154",
+    "name": "科伦坡"
+  },
+  {
+    "code": "COS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Colorado Springs",
+    "id": "155",
+    "name": "科泉"
+  },
+  {
+    "code": "CAE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Columbia",
+    "id": "156",
+    "name": "哥伦比亚"
+  },
+  {
+    "code": "CMH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Columbus",
+    "id": "157",
+    "name": "哥伦布"
+  },
+  {
+    "code": "GTR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Columbus Golden Triangle（MS）",
+    "id": "158",
+    "name": "哥伦布（金三角，密西西比州）"
+  },
+  {
+    "code": "CSG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Columbus（GA）",
+    "id": "159",
+    "name": "哥伦布（佐治亚洲)"
+  },
+  {
+    "code": "YQQ",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Comox",
+    "id": "160",
+    "name": "康英克斯"
+  },
+  {
+    "code": "CKY",
+    "continent": "非洲",
+    "country": "几内亚",
+    "englishName": "Conakry",
+    "id": "161",
+    "name": "科纳克里"
+  },
+  {
+    "code": "CPH",
+    "continent": "欧洲",
+    "country": "丹麦",
+    "englishName": "Copenhagen",
+    "id": "162",
+    "name": "哥本哈根"
+  },
+  {
+    "code": "ORK",
+    "continent": "欧洲",
+    "country": "爱尔兰",
+    "englishName": "CORK",
+    "id": "163",
+    "name": "科克"
+  },
+  {
+    "code": "CBO",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Cotabato",
+    "id": "164",
+    "name": "科塔巴托"
+  },
+  {
+    "code": "COO",
+    "continent": "非洲",
+    "country": "贝宁",
+    "englishName": "Cotonou",
+    "id": "165",
+    "name": "科托努"
+  },
+  {
+    "code": "CEC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Crescent City",
+    "id": "166",
+    "name": "新月"
+  },
+  {
+    "code": "CRV",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Crotone",
+    "id": "167",
+    "name": "克罗托內"
+  },
+  {
+    "code": "CUR",
+    "continent": "南美洲",
+    "country": "荷属安的列斯",
+    "englishName": "Curacao",
+    "id": "168",
+    "name": "库腊索岛"
+  },
+  {
+    "code": "DKR",
+    "continent": "非洲",
+    "country": "塞内加尔",
+    "englishName": "Dakar",
+    "id": "169",
+    "name": "达喀尔"
+  },
+  {
+    "code": "DLM",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Dalaman",
+    "id": "170",
+    "name": "达拉曼"
+  },
+  {
+    "code": "DFW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Dallas",
+    "id": "171",
+    "name": "达拉斯"
+  },
+  {
+    "code": "DAM",
+    "continent": "亚洲",
+    "country": "叙利亚",
+    "englishName": "Damascus",
+    "id": "172",
+    "name": "大马士革"
+  },
+  {
+    "code": "DMM",
+    "continent": "亚洲",
+    "country": "沙特阿拉伯",
+    "englishName": "Dammam",
+    "id": "173",
+    "name": "达曼"
+  },
+  {
+    "code": "DAR",
+    "continent": "非洲",
+    "country": "坦桑尼亚",
+    "englishName": "Dar Es Salaam",
+    "id": "174",
+    "name": "达累斯萨拉姆"
+  },
+  {
+    "code": "DRW",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Darwin",
+    "id": "175",
+    "name": "达尔文"
+  },
+  {
+    "code": "DVO",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Davao",
+    "id": "176",
+    "name": "达沃"
+  },
+  {
+    "code": "DAY",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Dayton",
+    "id": "177",
+    "name": "代顿"
+  },
+  {
+    "code": "YDF",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Deer Lake",
+    "id": "178",
+    "name": "鹿湖"
+  },
+  {
+    "code": "DEL",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Delhi",
+    "id": "179",
+    "name": "新德里"
+  },
+  {
+    "code": "DNZ",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Denizli",
+    "id": "180",
+    "name": "代尼兹利"
+  },
+  {
+    "code": "DEN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Denver",
+    "id": "181",
+    "name": "丹佛"
+  },
+  {
+    "code": "DSM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Des Moines",
+    "id": "182",
+    "name": "得梅因"
+  },
+  {
+    "code": "DTW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Detroit",
+    "id": "183",
+    "name": "底特律"
+  },
+  {
+    "code": "DAC",
+    "continent": "亚洲",
+    "country": "孟加拉国",
+    "englishName": "Dhaka",
+    "id": "184",
+    "name": "达卡"
+  },
+  {
+    "code": "DPL",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Dipolog",
+    "id": "185",
+    "name": "第波罗"
+  },
+  {
+    "code": "DIY",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Diyarbakir",
+    "id": "186",
+    "name": "迪亚巴克尔"
+  },
+  {
+    "code": "JIB",
+    "continent": "非洲",
+    "country": "吉布提",
+    "englishName": "Djibouti",
+    "id": "187",
+    "name": "吉布提"
+  },
+  {
+    "code": "DDC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Dodge City",
+    "id": "188",
+    "name": "Dodge City"
+  },
+  {
+    "code": "DOH",
+    "continent": "亚洲",
+    "country": "卡塔尔",
+    "englishName": "Doha",
+    "id": "189",
+    "name": "多哈"
+  },
+  {
+    "code": "DHN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Dothan",
+    "id": "190",
+    "name": "多森"
+  },
+  {
+    "code": "DLA",
+    "continent": "非洲",
+    "country": "喀麦隆",
+    "englishName": "Douala",
+    "id": "191",
+    "name": "杜阿拉"
+  },
+  {
+    "code": "DRS",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Dresden",
+    "id": "192",
+    "name": "德累斯顿"
+  },
+  {
+    "code": "DXB",
+    "continent": "亚洲",
+    "country": "阿联酋",
+    "englishName": "Dubai",
+    "id": "193",
+    "name": "迪拜"
+  },
+  {
+    "code": "DUB",
+    "continent": "欧洲",
+    "country": "爱尔兰",
+    "englishName": "DUBLIN",
+    "id": "194",
+    "name": "都柏林"
+  },
+  {
+    "code": "DBV",
+    "continent": "欧洲",
+    "country": "克罗地亚",
+    "englishName": "Dubrovnik",
+    "id": "195",
+    "name": "杜勃罗夫尼克"
+  },
+  {
+    "code": "DBQ",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Dubugui",
+    "id": "196",
+    "name": "迪比克"
+  },
+  {
+    "code": "DLH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Duluth",
+    "id": "197",
+    "name": "德卢斯"
+  },
+  {
+    "code": "DGT",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Dumaguete",
+    "id": "198",
+    "name": "杜马盖地"
+  },
+  {
+    "code": "DUD",
+    "continent": "大洋洲",
+    "country": "新西兰",
+    "englishName": "Dunedin",
+    "id": "199",
+    "name": "但尼丁"
+  },
+  {
+    "code": "DUR",
+    "continent": "非洲",
+    "country": "南非",
+    "englishName": "Durban",
+    "id": "200",
+    "name": "德班"
+  },
+  {
+    "code": "DUS",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Dusseldorf",
+    "id": "201",
+    "name": "杜塞尔多夫"
+  },
+  {
+    "code": "EAU",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Eau Claire",
+    "id": "202",
+    "name": "奥克莱尔"
+  },
+  {
+    "code": "EDI",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "EDINBURGH",
+    "id": "203",
+    "name": "爱丁堡"
+  },
+  {
+    "code": "YEG",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Edmonton",
+    "id": "204",
+    "name": "埃德蒙顿"
+  },
+  {
+    "code": "EDO",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Edremit/Korfez",
+    "id": "205",
+    "name": "埃德米特"
+  },
+  {
+    "code": "EIN",
+    "continent": "欧洲",
+    "country": "荷兰",
+    "englishName": "EINDHOVEN",
+    "id": "206",
+    "name": "埃因霍温"
+  },
+  {
+    "code": "SVX",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "EKATERINBURG",
+    "id": "207",
+    "name": "叶卡琳娜堡"
+  },
+  {
+    "code": "EBB",
+    "continent": "非洲",
+    "country": "乌干达",
+    "englishName": "Entebbe/Kampala",
+    "id": "208",
+    "name": "恩德培/坎帕拉"
+  },
+  {
+    "code": "ECN",
+    "continent": "亚洲",
+    "country": "塞浦路斯",
+    "englishName": "ERCAN",
+    "id": "209",
+    "name": "阿尔江"
+  },
+  {
+    "code": "ERI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Erie",
+    "id": "210",
+    "name": "伊利"
+  },
+  {
+    "code": "ERZ",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Erzurum",
+    "id": "211",
+    "name": "俄祖汝穆"
+  },
+  {
+    "code": "ESC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Escanada",
+    "id": "212",
+    "name": "埃斯卡纳巴"
+  },
+  {
+    "code": "EUG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Eugene",
+    "id": "213",
+    "name": "犹吉尼"
+  },
+  {
+    "code": "EVV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Evansville",
+    "id": "214",
+    "name": "爱文斯维尔"
+  },
+  {
+    "code": "FAR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fargo",
+    "id": "215",
+    "name": "法戈"
+  },
+  {
+    "code": "FAO",
+    "continent": "欧洲",
+    "country": "葡萄牙",
+    "englishName": "Faro",
+    "id": "216",
+    "name": "法鲁"
+  },
+  {
+    "code": "FYV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fayetteville",
+    "id": "217",
+    "name": "菲也特维尔"
+  },
+  {
+    "code": "FNT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Flint",
+    "id": "218",
+    "name": "弗林特"
+  },
+  {
+    "code": "FLR",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "FLORENCE",
+    "id": "219",
+    "name": "佛罗伦萨"
+  },
+  {
+    "code": "FDF",
+    "continent": "南美洲",
+    "country": "马提尼克岛",
+    "englishName": "Fort de France",
+    "id": "220",
+    "name": "法兰西堡"
+  },
+  {
+    "code": "FOD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fort Dodge",
+    "id": "221",
+    "name": "道奇堡"
+  },
+  {
+    "code": "FLL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fort Lauderdale",
+    "id": "222",
+    "name": "劳德代尔堡"
+  },
+  {
+    "code": "RSW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fort Myers",
+    "id": "223",
+    "name": "迈尔斯堡"
+  },
+  {
+    "code": "FSM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fort Smith",
+    "id": "224",
+    "name": "史密斯堡"
+  },
+  {
+    "code": "FWA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fort Wayne",
+    "id": "225",
+    "name": "韦恩堡"
+  },
+  {
+    "code": "FRA",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "FRANKFURT",
+    "id": "226",
+    "name": "法兰克福"
+  },
+  {
+    "code": "YFC",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Fredericton",
+    "id": "227",
+    "name": "弗雷德里克顿"
+  },
+  {
+    "code": "FAT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Fresno",
+    "id": "228",
+    "name": "弗列斯诺"
+  },
+  {
+    "code": "FDH",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Friedrichshafen",
+    "id": "229",
+    "name": "弗里的希哈芬"
+  },
+  {
+    "code": "FUE",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "FUERTEVENTURA",
+    "id": "230",
+    "name": "福特弯图拉岛"
+  },
+  {
+    "code": "FUK",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Fukuoka",
+    "id": "231",
+    "name": "福冈"
+  },
+  {
+    "code": "FKS",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Fukushima",
+    "id": "232",
+    "name": "福岛"
+  },
+  {
+    "code": "FNC",
+    "continent": "欧洲",
+    "country": "葡萄牙",
+    "englishName": "Funchal",
+    "id": "233",
+    "name": "丰沙尔"
+  },
+  {
+    "code": "GZT",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Gaziantep",
+    "id": "234",
+    "name": "加济安泰普"
+  },
+  {
+    "code": "GDN",
+    "continent": "欧洲",
+    "country": "波兰",
+    "englishName": "GDANSK",
+    "id": "235",
+    "name": "格但斯克"
+  },
+  {
+    "code": "GES",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "General Santos",
+    "id": "236",
+    "name": "桑托斯将军城"
+  },
+  {
+    "code": "GVA",
+    "continent": "欧洲",
+    "country": "瑞士",
+    "englishName": "GENEVA",
+    "id": "237",
+    "name": "日内瓦"
+  },
+  {
+    "code": "GOA",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "GENOA",
+    "id": "238",
+    "name": "热那亚"
+  },
+  {
+    "code": "GLA",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "GLASGOW",
+    "id": "239",
+    "name": "格拉斯哥"
+  },
+  {
+    "code": "GOI",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Goa",
+    "id": "240",
+    "name": "果阿"
+  },
+  {
+    "code": "OOL",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Gold Coast",
+    "id": "241",
+    "name": "黄金海岸"
+  },
+  {
+    "code": "YYR",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Goose Bay",
+    "id": "242",
+    "name": "鹅湾"
+  },
+  {
+    "code": "GOT",
+    "continent": "欧洲",
+    "country": "瑞典",
+    "englishName": "GOTHENBURG",
+    "id": "243",
+    "name": "歌德堡"
+  },
+  {
+    "code": "GCN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Grand Canyon",
+    "id": "244",
+    "name": "科罗拉多大峡谷"
+  },
+  {
+    "code": "GFK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Grand Forks",
+    "id": "245",
+    "name": "格蓝福克"
+  },
+  {
+    "code": "GJT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Grand Junction",
+    "id": "246",
+    "name": "大章克申"
+  },
+  {
+    "code": "GRR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Grand Rapids",
+    "id": "247",
+    "name": "大急流城"
+  },
+  {
+    "code": "GPZ",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Grand Rapids",
+    "id": "248",
+    "name": "大激流城"
+  },
+  {
+    "code": "GRZ",
+    "continent": "欧洲",
+    "country": "奥地利",
+    "englishName": "GRAZ",
+    "id": "249",
+    "name": "格拉茨"
+  },
+  {
+    "code": "GTF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Great Falls",
+    "id": "250",
+    "name": "大瀑布市"
+  },
+  {
+    "code": "GRB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Green Bay",
+    "id": "251",
+    "name": "绿湾"
+  },
+  {
+    "code": "GSO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Greensboro",
+    "id": "252",
+    "name": "北卡罗来纳"
+  },
+  {
+    "code": "GLH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Greenville",
+    "id": "253",
+    "name": "格林维尔"
+  },
+  {
+    "code": "GNB",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Grenoble",
+    "id": "254",
+    "name": "格勒诺布尔"
+  },
+  {
+    "code": "GUM",
+    "continent": "大洋洲",
+    "country": "关岛",
+    "englishName": "Guam",
+    "id": "255",
+    "name": "关岛"
+  },
+  {
+    "code": "GYE",
+    "continent": "南美洲",
+    "country": "厄瓜多尔",
+    "englishName": "Guayaquil",
+    "id": "256",
+    "name": "瓜亚基尔"
+  },
+  {
+    "code": "GPT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Gulfport",
+    "id": "257",
+    "name": "海湾港"
+  },
+  {
+    "code": "GUC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Gunnison",
+    "id": "258",
+    "name": "刚尼森"
+  },
+  {
+    "code": "YHZ",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Halifax",
+    "id": "259",
+    "name": "哈利法克斯"
+  },
+  {
+    "code": "HAM",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Hamburg",
+    "id": "260",
+    "name": "汉堡"
+  },
+  {
+    "code": "CMX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Hancock",
+    "id": "261",
+    "name": "汉考克"
+  },
+  {
+    "code": "HAN",
+    "continent": "亚洲",
+    "country": "越南",
+    "englishName": "Hanoi",
+    "id": "262",
+    "name": "河内"
+  },
+  {
+    "code": "HAJ",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "HANOVER",
+    "id": "263",
+    "name": "汉诺威"
+  },
+  {
+    "code": "MDT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Harrisburg",
+    "id": "264",
+    "name": "哈里斯堡"
+  },
+  {
+    "code": "BDL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Hartford",
+    "id": "265",
+    "name": "哈特福德"
+  },
+  {
+    "code": "BDL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Hartford Bradley",
+    "id": "266",
+    "name": "哈特福德 布拉德利"
+  },
+  {
+    "code": "HDY",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Hat Yai",
+    "id": "267",
+    "name": "合艾"
+  },
+  {
+    "code": "HAV",
+    "continent": "南美洲",
+    "country": "古巴",
+    "englishName": "Havana",
+    "id": "268",
+    "name": "哈瓦那"
+  },
+  {
+    "code": "HLN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Helena",
+    "id": "269",
+    "name": "海伦娜"
+  },
+  {
+    "code": "HEL",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Helsinki",
+    "id": "270",
+    "name": "赫尔辛基"
+  },
+  {
+    "code": "HIB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Hibbing",
+    "id": "271",
+    "name": "西宾"
+  },
+  {
+    "code": "HIJ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Hiroshima",
+    "id": "272",
+    "name": "广岛"
+  },
+  {
+    "code": "SGN",
+    "continent": "亚洲",
+    "country": "越南",
+    "englishName": "Ho Chi Minh City",
+    "id": "273",
+    "name": "胡志明市"
+  },
+  {
+    "code": "HBA",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Hobart",
+    "id": "274",
+    "name": "霍巴特"
+  },
+  {
+    "code": "HKG",
+    "continent": "亚洲",
+    "country": "香港地区",
+    "englishName": "Hongkong",
+    "id": "275",
+    "name": "香港"
+  },
+  {
+    "code": "HNL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Honolulu",
+    "id": "276",
+    "name": "夏威夷"
+  },
+  {
+    "code": "HOU",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Houston",
+    "id": "277",
+    "name": "休斯顿"
+  },
+  {
+    "code": "HUY",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "HUMBERSIDE",
+    "id": "278",
+    "name": "亨伯赛"
+  },
+  {
+    "code": "HTS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Huntington",
+    "id": "279",
+    "name": "亨廷顿"
+  },
+  {
+    "code": "HSV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Huntsville",
+    "id": "280",
+    "name": "汉斯维尔"
+  },
+  {
+    "code": "HYA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Hyannis",
+    "id": "281",
+    "name": "海恩尼斯"
+  },
+  {
+    "code": "HYD",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Hyderabad",
+    "id": "282",
+    "name": "海得拉巴"
+  },
+  {
+    "code": "IBZ",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "IBIZA",
+    "id": "283",
+    "name": "伊比萨岛"
+  },
+  {
+    "code": "IDA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Idaho Falls",
+    "id": "284",
+    "name": "爱达华瀑布市"
+  },
+  {
+    "code": "ILO",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Iloilo",
+    "id": "285",
+    "name": "伊洛伊洛"
+  },
+  {
+    "code": "IPL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Imperial",
+    "id": "286",
+    "name": "Imperial"
+  },
+  {
+    "code": "IND",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Indianapolis",
+    "id": "287",
+    "name": "印第安纳波利斯"
+  },
+  {
+    "code": "INN",
+    "continent": "欧洲",
+    "country": "奥地利",
+    "englishName": "INNSBRUCK",
+    "id": "288",
+    "name": "因斯布卢克"
+  },
+  {
+    "code": "INL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "International Fall",
+    "id": "289",
+    "name": "国际瀑布市"
+  },
+  {
+    "code": "IYK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Inyokem",
+    "id": "290",
+    "name": "因纽肯"
+  },
+  {
+    "code": "IPH",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Ipoh",
+    "id": "291",
+    "name": "怡保"
+  },
+  {
+    "code": "ISB",
+    "continent": "亚洲",
+    "country": "巴基斯坦",
+    "englishName": "Islamabad",
+    "id": "292",
+    "name": "伊斯兰堡"
+  },
+  {
+    "code": "ISP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Islip",
+    "id": "293",
+    "name": "艾斯利珀(纽约长岛）"
+  },
+  {
+    "code": "IST",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "ISTANBUL",
+    "id": "294",
+    "name": "伊斯坦布尔"
+  },
+  {
+    "code": "IZM",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "IZMIR",
+    "id": "295",
+    "name": "伊兹密尔"
+  },
+  {
+    "code": "ADB",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Izmir Adnan Mende",
+    "id": "296",
+    "name": "伊兹米尔"
+  },
+  {
+    "code": "JAN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Jackson",
+    "id": "297",
+    "name": "杰克逊（密西西比州）"
+  },
+  {
+    "code": "MKL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Jackson",
+    "id": "298",
+    "name": "杰克逊(田纳西州）"
+  },
+  {
+    "code": "JAC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Jackson",
+    "id": "299",
+    "name": "杰克逊(密歇根州)"
+  },
+  {
+    "code": "JAX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Jacksonville",
+    "id": "300",
+    "name": "杰克逊维尔"
+  },
+  {
+    "code": "JKT",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Jakarta",
+    "id": "301",
+    "name": "雅加达"
+  },
+  {
+    "code": "JED",
+    "continent": "欧洲",
+    "country": "沙特阿拉伯",
+    "englishName": "Jeddah",
+    "id": "302",
+    "name": "吉达"
+  },
+  {
+    "code": "EUS",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Joensuu",
+    "id": "303",
+    "name": "约恩苏"
+  },
+  {
+    "code": "JNB",
+    "continent": "非洲",
+    "country": "南非",
+    "englishName": "Johannesburg",
+    "id": "304",
+    "name": "约翰内斯堡"
+  },
+  {
+    "code": "JHB",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Johor Bahru",
+    "id": "305",
+    "name": "新山"
+  },
+  {
+    "code": "JLN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Joplin",
+    "id": "306",
+    "name": "乔普林"
+  },
+  {
+    "code": "KOJ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Kagoshim",
+    "id": "307",
+    "name": "鹿儿岛"
+  },
+  {
+    "code": "AZO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Kalamazoo",
+    "id": "308",
+    "name": "卡拉马祖"
+  },
+  {
+    "code": "KLO",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Kalibo",
+    "id": "309",
+    "name": "卡里波"
+  },
+  {
+    "code": "FCA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Kalispell",
+    "id": "310",
+    "name": "卡利斯比"
+  },
+  {
+    "code": "YKA",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Kamloops",
+    "id": "311",
+    "name": "甘露市"
+  },
+  {
+    "code": "KAN",
+    "continent": "非洲",
+    "country": "尼日利亚",
+    "englishName": "Kano",
+    "id": "312",
+    "name": "卡诺"
+  },
+  {
+    "code": "MCI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Kansas City",
+    "id": "313",
+    "name": "堪萨斯城"
+  },
+  {
+    "code": "MKC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Kansas city",
+    "id": "314",
+    "name": "堪萨斯"
+  },
+  {
+    "code": "KHH",
+    "continent": "亚洲",
+    "country": "台湾地区",
+    "englishName": "Kaohsiung",
+    "id": "315",
+    "name": "高雄"
+  },
+  {
+    "code": "KHI",
+    "continent": "亚洲",
+    "country": "巴基斯坦",
+    "englishName": "Karachi",
+    "id": "316",
+    "name": "卡拉齐"
+  },
+  {
+    "code": "KGF",
+    "continent": "亚洲",
+    "country": "哈萨克斯坦",
+    "englishName": "Karaganda",
+    "id": "317",
+    "name": "卡拉干达"
+  },
+  {
+    "code": "KGF",
+    "continent": "亚洲",
+    "country": "尼泊尔",
+    "englishName": "Kathmandu",
+    "id": "318",
+    "name": "加德满都"
+  },
+  {
+    "code": "KTW",
+    "continent": "欧洲",
+    "country": "波兰",
+    "englishName": "KATOWICE",
+    "id": "319",
+    "name": "卡托维兹"
+  },
+  {
+    "code": "ASR",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Kayseri",
+    "id": "320",
+    "name": "开赛利"
+  },
+  {
+    "code": "KZN",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "KAZAN",
+    "id": "321",
+    "name": "喀山"
+  },
+  {
+    "code": "YLW",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Kelowna",
+    "id": "322",
+    "name": "基隆拿"
+  },
+  {
+    "code": "KRT",
+    "continent": "非洲",
+    "country": "苏丹",
+    "englishName": "Khartoum",
+    "id": "323",
+    "name": "喀土穆"
+  },
+  {
+    "code": "KKC",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Khonkean",
+    "id": "324",
+    "name": "孔敬"
+  },
+  {
+    "code": "IEV",
+    "continent": "欧洲",
+    "country": "乌克兰",
+    "englishName": "KIEV",
+    "id": "325",
+    "name": "基辅"
+  },
+  {
+    "code": "JRO",
+    "continent": "非洲",
+    "country": "坦桑尼亚",
+    "englishName": "Kilimanjaro",
+    "id": "326",
+    "name": "乞力马扎罗"
+  },
+  {
+    "code": "YGK",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Kingston",
+    "id": "327",
+    "name": "金斯顿"
+  },
+  {
+    "code": "FIH",
+    "continent": "非洲",
+    "country": "扎伊尔",
+    "englishName": "Kinshasa",
+    "id": "328",
+    "name": "金沙萨"
+  },
+  {
+    "code": "KLU",
+    "continent": "欧洲",
+    "country": "奥地利",
+    "englishName": "KLAGENFURT",
+    "id": "329",
+    "name": "克拉根福"
+  },
+  {
+    "code": "LMT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Klamath Falls",
+    "id": "330",
+    "name": "克拉玛斯瀑布市"
+  },
+  {
+    "code": "TYS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Knoxville",
+    "id": "331",
+    "name": "诺克斯维尔"
+  },
+  {
+    "code": "USM",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Koh Samui",
+    "id": "332",
+    "name": "苏梅岛"
+  },
+  {
+    "code": "KMQ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Komatsu",
+    "id": "333",
+    "name": "小松"
+  },
+  {
+    "code": "KOA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Kona",
+    "id": "334",
+    "name": "科纳岛"
+  },
+  {
+    "code": "KYA",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Konya",
+    "id": "335",
+    "name": "科尼亚"
+  },
+  {
+    "code": "KSC",
+    "continent": "欧洲",
+    "country": "斯洛伐克",
+    "englishName": "KOSICE",
+    "id": "336",
+    "name": "科西策"
+  },
+  {
+    "code": "KBR",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Kota Bharu",
+    "id": "337",
+    "name": "哥打巴鲁"
+  },
+  {
+    "code": "BKI",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Kota Kinabalu",
+    "id": "338",
+    "name": "哥打基纳巴鲁"
+  },
+  {
+    "code": "CCJ",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Kozhikode",
+    "id": "339",
+    "name": "卡利刻特"
+  },
+  {
+    "code": "KBV",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Krabi",
+    "id": "340",
+    "name": "甲米"
+  },
+  {
+    "code": "KRK",
+    "continent": "欧洲",
+    "country": "波兰",
+    "englishName": "Krakow",
+    "id": "341",
+    "name": "克拉科夫"
+  },
+  {
+    "code": "KUL",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Kuala Lumpur",
+    "id": "342",
+    "name": "吉隆坡"
+  },
+  {
+    "code": "TGG",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Kuala Terengganu",
+    "id": "343",
+    "name": "瓜拉丁加奴"
+  },
+  {
+    "code": "KUA",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Kuantan",
+    "id": "344",
+    "name": "关丹"
+  },
+  {
+    "code": "KCH",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Kuching",
+    "id": "345",
+    "name": "古晋（沙捞越）"
+  },
+  {
+    "code": "KUO",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Kuopio",
+    "id": "346",
+    "name": "库奥皮奥"
+  },
+  {
+    "code": "KWI",
+    "continent": "亚洲",
+    "country": "科威特",
+    "englishName": "Kuwait",
+    "id": "347",
+    "name": "科威特"
+  },
+  {
+    "code": "KWJ",
+    "continent": "亚洲",
+    "country": "韩国",
+    "englishName": "Kwangju",
+    "id": "348",
+    "name": "光州"
+  },
+  {
+    "code": "LSE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "La Crosse",
+    "id": "349",
+    "name": "拉可诺斯"
+  },
+  {
+    "code": "LBU",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Labuan",
+    "id": "350",
+    "name": "纳闽"
+  },
+  {
+    "code": "LAF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Lafayette",
+    "id": "351",
+    "name": "拉法叶"
+  },
+  {
+    "code": "LOS",
+    "continent": "非洲",
+    "country": "尼日利亚",
+    "englishName": "Lagos",
+    "id": "352",
+    "name": "拉各斯"
+  },
+  {
+    "code": "LDU",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Lahad Datu",
+    "id": "353",
+    "name": "拿笃"
+  },
+  {
+    "code": "LHE",
+    "continent": "亚洲",
+    "country": "巴基斯坦",
+    "englishName": "Lahore",
+    "id": "354",
+    "name": "拉合尔"
+  },
+  {
+    "code": "SUF",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Lamezia Terme",
+    "id": "355",
+    "name": "拉默齐亚"
+  },
+  {
+    "code": "LGK",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Langkawi",
+    "id": "356",
+    "name": "兰卡威"
+  },
+  {
+    "code": "LAI",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Lannion",
+    "id": "357",
+    "name": "拉尼翁"
+  },
+  {
+    "code": "LAN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Lansing",
+    "id": "358",
+    "name": "兰辛"
+  },
+  {
+    "code": "ACE",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "LANZAROTE",
+    "id": "359",
+    "name": "兰萨罗特"
+  },
+  {
+    "code": "LAO",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Laoag",
+    "id": "360",
+    "name": "佬沃"
+  },
+  {
+    "code": "LCA",
+    "continent": "亚洲",
+    "country": "塞浦路斯",
+    "englishName": "Larnaca",
+    "id": "361",
+    "name": "拉纳卡"
+  },
+  {
+    "code": "LPA",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "LAS PALMAS",
+    "id": "362",
+    "name": "拉斯帕尔马斯"
+  },
+  {
+    "code": "LAS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Las Vegas",
+    "id": "363",
+    "name": "拉斯维加斯"
+  },
+  {
+    "code": "LST",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Launceston",
+    "id": "364",
+    "name": "郎塞斯顿"
+  },
+  {
+    "code": "PIB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Laurel",
+    "id": "365",
+    "name": "劳雷尔"
+  },
+  {
+    "code": "LEH",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Le Havre",
+    "id": "366",
+    "name": "勒阿弗尔"
+  },
+  {
+    "code": "ZLN",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Le Mans",
+    "id": "367",
+    "name": "勒芒（火车站）"
+  },
+  {
+    "code": "LEB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Lebanon",
+    "id": "368",
+    "name": "黎巴嫩"
+  },
+  {
+    "code": "LBA",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "LEEDS BRADFORD",
+    "id": "369",
+    "name": "利兹"
+  },
+  {
+    "code": "LGP",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Legaspi",
+    "id": "370",
+    "name": "黎牙实比"
+  },
+  {
+    "code": "LEJ",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Leipzig-Halle",
+    "id": "371",
+    "name": "莱比锡-哈勒"
+  },
+  {
+    "code": "LWS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Lewiston",
+    "id": "372",
+    "name": "莱维斯顿"
+  },
+  {
+    "code": "LEX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Lexington",
+    "id": "373",
+    "name": "列克星敦"
+  },
+  {
+    "code": "LBV",
+    "continent": "非洲",
+    "country": "加蓬",
+    "englishName": "Libreville",
+    "id": "374",
+    "name": "利伯维尔"
+  },
+  {
+    "code": "LIL",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "LILLE",
+    "id": "375",
+    "name": "里尔"
+  },
+  {
+    "code": "XDB",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Lille",
+    "id": "376",
+    "name": "里尔（火车站）"
+  },
+  {
+    "code": "LIM",
+    "continent": "南美洲",
+    "country": "秘鲁",
+    "englishName": "Lima",
+    "id": "377",
+    "name": "利马"
+  },
+  {
+    "code": "LNK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "lincoln",
+    "id": "378",
+    "name": "林肯"
+  },
+  {
+    "code": "LNZ",
+    "continent": "欧洲",
+    "country": "奥地利",
+    "englishName": "LINZ",
+    "id": "379",
+    "name": "林茨"
+  },
+  {
+    "code": "LIS",
+    "continent": "欧洲",
+    "country": "葡萄牙",
+    "englishName": "LISBON",
+    "id": "380",
+    "name": "里斯本"
+  },
+  {
+    "code": "LIT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Little Rock",
+    "id": "381",
+    "name": "小石城"
+  },
+  {
+    "code": "LJU",
+    "continent": "欧洲",
+    "country": "斯洛文尼亚",
+    "englishName": "LJUBLJANA",
+    "id": "382",
+    "name": "卢布尔雅那"
+  },
+  {
+    "code": "LFW",
+    "continent": "非洲",
+    "country": "多哥",
+    "englishName": "Lome",
+    "id": "383",
+    "name": "洛美"
+  },
+  {
+    "code": "LON",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "London",
+    "id": "384",
+    "name": "伦敦"
+  },
+  {
+    "code": "LHR",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "London",
+    "id": "385",
+    "name": "伦敦（希斯罗）"
+  },
+  {
+    "code": "LCY",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "London City Airport",
+    "id": "386",
+    "name": "伦敦（城市机场）"
+  },
+  {
+    "code": "LRT",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Lorient",
+    "id": "387",
+    "name": "罗里昂"
+  },
+  {
+    "code": "LAX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Los Angeles",
+    "id": "388",
+    "name": "洛杉矶"
+  },
+  {
+    "code": "SDF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Louisville",
+    "id": "389",
+    "name": "路易斯维尔"
+  },
+  {
+    "code": "LAD",
+    "continent": "非洲",
+    "country": "安哥拉",
+    "englishName": "Luanda",
+    "id": "390",
+    "name": "罗安达"
+  },
+  {
+    "code": "LPQ",
+    "continent": "亚洲",
+    "country": "老挝",
+    "englishName": "Luang Prabang",
+    "id": "391",
+    "name": "琅勃拉邦"
+  },
+  {
+    "code": "LKO",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Lucknow",
+    "id": "392",
+    "name": "勒克瑙"
+  },
+  {
+    "code": "LUX",
+    "continent": "欧洲",
+    "country": "卢森堡",
+    "englishName": "LUXEMBOURG",
+    "id": "393",
+    "name": "卢森堡"
+  },
+  {
+    "code": "LXR",
+    "continent": "非洲",
+    "country": "埃及",
+    "englishName": "Luxor",
+    "id": "394",
+    "name": "卢克索"
+  },
+  {
+    "code": "LYH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Lynchburg",
+    "id": "395",
+    "name": "林奇堡"
+  },
+  {
+    "code": "XYD",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Lyon",
+    "id": "396",
+    "name": "里昂（火车站）"
+  },
+  {
+    "code": "LYS",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "LYON",
+    "id": "397",
+    "name": "里昂"
+  },
+  {
+    "code": "MST",
+    "continent": "欧洲",
+    "country": "荷兰",
+    "englishName": "Maastricht",
+    "id": "398",
+    "name": "马斯垂克"
+  },
+  {
+    "code": "MFM",
+    "continent": "亚洲",
+    "country": "澳门地区",
+    "englishName": "Macau",
+    "id": "399",
+    "name": "澳门"
+  },
+  {
+    "code": "MSN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Madison",
+    "id": "400",
+    "name": "麦迪逊"
+  },
+  {
+    "code": "MAD",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "MADRID",
+    "id": "401",
+    "name": "马德里"
+  },
+  {
+    "code": "SEZ",
+    "continent": "非洲",
+    "country": "塞舌尔",
+    "englishName": "Mahe Island",
+    "id": "402",
+    "name": "马埃岛"
+  },
+  {
+    "code": "SSG",
+    "continent": "非洲",
+    "country": "赤道几内亚",
+    "englishName": "Malabo",
+    "id": "403",
+    "name": "马拉博"
+  },
+  {
+    "code": "AGP",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "MALAGA",
+    "id": "404",
+    "name": "马拉加"
+  },
+  {
+    "code": "MLX",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Malatya",
+    "id": "405",
+    "name": "马拉提亚"
+  },
+  {
+    "code": "MLE",
+    "continent": "亚洲",
+    "country": "马尔代夫",
+    "englishName": "Male",
+    "id": "406",
+    "name": "马累"
+  },
+  {
+    "code": "MLA",
+    "continent": "欧洲",
+    "country": "马耳他",
+    "englishName": "MALTA",
+    "id": "407",
+    "name": "马耳他"
+  },
+  {
+    "code": "MDC",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Manado",
+    "id": "408",
+    "name": "万鸦老"
+  },
+  {
+    "code": "MAN",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "MANCHESTER",
+    "id": "409",
+    "name": "曼彻斯特"
+  },
+  {
+    "code": "MHT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Manchester",
+    "id": "410",
+    "name": "曼彻斯特"
+  },
+  {
+    "code": "MNL",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Manila",
+    "id": "411",
+    "name": "马尼拉"
+  },
+  {
+    "code": "MBL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "MANISTEE",
+    "id": "412",
+    "name": "马尼斯蒂"
+  },
+  {
+    "code": "MQT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Marquette",
+    "id": "413",
+    "name": "玛奎德"
+  },
+  {
+    "code": "RAK",
+    "continent": "非洲",
+    "country": "摩洛哥",
+    "englishName": "Marrakech",
+    "id": "414",
+    "name": "马拉喀什"
+  },
+  {
+    "code": "MRS",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Marseille",
+    "id": "415",
+    "name": "马赛"
+  },
+  {
+    "code": "MCW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Mason City",
+    "id": "416",
+    "name": "麦孙城"
+  },
+  {
+    "code": "AMI",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Mataram",
+    "id": "417",
+    "name": "马塔兰"
+  },
+  {
+    "code": "MYJ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Matsuyama",
+    "id": "418",
+    "name": "松山"
+  },
+  {
+    "code": "MRU",
+    "continent": "非洲",
+    "country": "毛里求斯",
+    "englishName": "Mauritius",
+    "id": "419",
+    "name": "毛里求斯"
+  },
+  {
+    "code": "MES",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Medan",
+    "id": "420",
+    "name": "棉兰"
+  },
+  {
+    "code": "MFR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Medford",
+    "id": "421",
+    "name": "梅德福"
+  },
+  {
+    "code": "MEL",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Melbourne",
+    "id": "422",
+    "name": "墨尔本"
+  },
+  {
+    "code": "MEM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Memphis",
+    "id": "423",
+    "name": "孟菲斯"
+  },
+  {
+    "code": "MAH",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "MENORCA",
+    "id": "424",
+    "name": "梅诺卡岛"
+  },
+  {
+    "code": "MEI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Meridian",
+    "id": "425",
+    "name": "迈越颠"
+  },
+  {
+    "code": "ETZ",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Metz-Nancy",
+    "id": "426",
+    "name": "南锡-梅兹"
+  },
+  {
+    "code": "MEX",
+    "continent": "南美洲",
+    "country": "墨西哥",
+    "englishName": "Mexico City",
+    "id": "427",
+    "name": "墨西哥城"
+  },
+  {
+    "code": "MIA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Miami",
+    "id": "428",
+    "name": "迈阿密"
+  },
+  {
+    "code": "MIL",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "MILAN",
+    "id": "429",
+    "name": "米兰"
+  },
+  {
+    "code": "LIN",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Milan Linate",
+    "id": "430",
+    "name": "米兰（林内特）"
+  },
+  {
+    "code": "MXP",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Milan Malpensa",
+    "id": "431",
+    "name": "米兰（马尔朋萨）"
+  },
+  {
+    "code": "MKE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Milwaukee",
+    "id": "432",
+    "name": "密尔沃基"
+  },
+  {
+    "code": "MSP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Minneapolis",
+    "id": "433",
+    "name": "明尼阿布利斯"
+  },
+  {
+    "code": "MOT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Minot",
+    "id": "434",
+    "name": "迈诺特"
+  },
+  {
+    "code": "MSQ",
+    "continent": "欧洲",
+    "country": "白俄罗斯",
+    "englishName": "MINSK",
+    "id": "435",
+    "name": "明斯克"
+  },
+  {
+    "code": "YCH",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Miramichi",
+    "id": "436",
+    "name": "米罗米奇"
+  },
+  {
+    "code": "MYY",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Miri",
+    "id": "437",
+    "name": "米里"
+  },
+  {
+    "code": "MSO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Missoula",
+    "id": "438",
+    "name": "密苏拉"
+  },
+  {
+    "code": "MOB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Mobile",
+    "id": "439",
+    "name": "莫比尔"
+  },
+  {
+    "code": "MOD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Modesto",
+    "id": "440",
+    "name": "莫德斯托"
+  },
+  {
+    "code": "MLI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Moline",
+    "id": "441",
+    "name": "模林"
+  },
+  {
+    "code": "YQM",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Moncton",
+    "id": "442",
+    "name": "蒙克顿"
+  },
+  {
+    "code": "MLU",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Monroe",
+    "id": "443",
+    "name": "门罗"
+  },
+  {
+    "code": "MVD",
+    "continent": "南美洲",
+    "country": "乌拉圭",
+    "englishName": "Montevideo",
+    "id": "444",
+    "name": "蒙德维的纳"
+  },
+  {
+    "code": "MRY",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Monterey",
+    "id": "445",
+    "name": "蒙特利"
+  },
+  {
+    "code": "MGM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Montgomery",
+    "id": "446",
+    "name": "蒙哥马利"
+  },
+  {
+    "code": "MPL",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Montpellier",
+    "id": "447",
+    "name": "蒙彼利埃"
+  },
+  {
+    "code": "YUL",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Montreal",
+    "id": "448",
+    "name": "蒙特利尔"
+  },
+  {
+    "code": "MTJ",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Montrose",
+    "id": "449",
+    "name": "密苏里"
+  },
+  {
+    "code": "MOW",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "MOSCOW",
+    "id": "450",
+    "name": "莫斯科"
+  },
+  {
+    "code": "MWH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Moses Lake",
+    "id": "451",
+    "name": "摩西莱克"
+  },
+  {
+    "code": "BOM",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Mumbai",
+    "id": "452",
+    "name": "孟买"
+  },
+  {
+    "code": "MUC",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "MUNICH",
+    "id": "453",
+    "name": "慕尼黑"
+  },
+  {
+    "code": "AGB",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Munich Augsburg",
+    "id": "454",
+    "name": "奥格斯堡"
+  },
+  {
+    "code": "FMO",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Munster",
+    "id": "455",
+    "name": "明斯特"
+  },
+  {
+    "code": "MCT",
+    "continent": "亚洲",
+    "country": "阿曼",
+    "englishName": "Muscat",
+    "id": "456",
+    "name": "马斯喀特"
+  },
+  {
+    "code": "MSL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Muscie Shoals",
+    "id": "457",
+    "name": "马斯尔肖尔斯"
+  },
+  {
+    "code": "MKG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Muskegon",
+    "id": "458",
+    "name": "马斯克根"
+  },
+  {
+    "code": "NAN",
+    "continent": "大洋洲",
+    "country": "斐济",
+    "englishName": "NADI",
+    "id": "459",
+    "name": "楠迪"
+  },
+  {
+    "code": "WNP",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Naga",
+    "id": "460",
+    "name": "那牙"
+  },
+  {
+    "code": "NGS",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Nagasaki",
+    "id": "461",
+    "name": "长崎"
+  },
+  {
+    "code": "NGO",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Nagoya",
+    "id": "462",
+    "name": "名古屋"
+  },
+  {
+    "code": "NBO",
+    "continent": "非洲",
+    "country": "肯尼亚",
+    "englishName": "Nairobi",
+    "id": "463",
+    "name": "内罗毕"
+  },
+  {
+    "code": "YCD",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Nanaimo",
+    "id": "464",
+    "name": "纳奈莫"
+  },
+  {
+    "code": "NTE",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Nantes",
+    "id": "465",
+    "name": "南特"
+  },
+  {
+    "code": "ACK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Nantucket",
+    "id": "466",
+    "name": "楠塔基特岛"
+  },
+  {
+    "code": "NAP",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "NAPLES",
+    "id": "467",
+    "name": "那不勒斯"
+  },
+  {
+    "code": "BNA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Nashville",
+    "id": "468",
+    "name": "纳什维尔"
+  },
+  {
+    "code": "NDJ",
+    "continent": "非洲",
+    "country": "乍得",
+    "englishName": "Ndjamena",
+    "id": "469",
+    "name": "恩贾梅纳"
+  },
+  {
+    "code": "MSY",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "New Orleans",
+    "id": "470",
+    "name": "新奥尔良"
+  },
+  {
+    "code": "NYC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "New York",
+    "id": "471",
+    "name": "纽约"
+  },
+  {
+    "code": "JFK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "New York John F Kennedy",
+    "id": "472",
+    "name": "纽约（约翰肯尼迪机场）"
+  },
+  {
+    "code": "LGA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "New York La Guard",
+    "id": "473",
+    "name": "纽约（拉瓜迪机场）"
+  },
+  {
+    "code": "EWR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Newark",
+    "id": "474",
+    "name": "纽沃克"
+  },
+  {
+    "code": "SWF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Newburgh",
+    "id": "475",
+    "name": "纽波夫"
+  },
+  {
+    "code": "NCL",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "NEWCASTLE",
+    "id": "476",
+    "name": "纽卡斯尔"
+  },
+  {
+    "code": "NIM",
+    "continent": "非洲",
+    "country": "尼日尔",
+    "englishName": "Niamey",
+    "id": "477",
+    "name": "尼亚美"
+  },
+  {
+    "code": "NCE",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Nice",
+    "id": "478",
+    "name": "尼斯"
+  },
+  {
+    "code": "KIJ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Niigata",
+    "id": "479",
+    "name": "新泻"
+  },
+  {
+    "code": "GOJ",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "NIZHNIY NOVGOROD",
+    "id": "480",
+    "name": "下诺夫格罗德"
+  },
+  {
+    "code": "ORF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Norfolk",
+    "id": "481",
+    "name": "诺福克"
+  },
+  {
+    "code": "OTH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "North Bend",
+    "id": "482",
+    "name": "北本德"
+  },
+  {
+    "code": "NWI",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "Norwich",
+    "id": "483",
+    "name": "诺里奇"
+  },
+  {
+    "code": "NKC",
+    "continent": "非洲",
+    "country": "毛里塔尼亚",
+    "englishName": "Nouakchott",
+    "id": "484",
+    "name": "努瓦克肖特"
+  },
+  {
+    "code": "NUE",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "Nuremberg",
+    "id": "485",
+    "name": "纽伦堡"
+  },
+  {
+    "code": "OAK",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Oakland",
+    "id": "486",
+    "name": "奥克兰(加利福尼亚州)"
+  },
+  {
+    "code": "ODS",
+    "continent": "欧洲",
+    "country": "乌克兰",
+    "englishName": "Odessa",
+    "id": "487",
+    "name": "敖德萨"
+  },
+  {
+    "code": "OKJ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Okayama",
+    "id": "488",
+    "name": "冈山"
+  },
+  {
+    "code": "OKA",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Okinawa",
+    "id": "489",
+    "name": "冲绳"
+  },
+  {
+    "code": "OKC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Oklahoma Ciyt",
+    "id": "490",
+    "name": "俄克拉荷马城"
+  },
+  {
+    "code": "OMA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Omaha",
+    "id": "491",
+    "name": "奥马哈"
+  },
+  {
+    "code": "ONT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Ontario",
+    "id": "492",
+    "name": "安大略"
+  },
+  {
+    "code": "SNA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Orange County",
+    "id": "493",
+    "name": "橘子郡"
+  },
+  {
+    "code": "ORL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Orlando",
+    "id": "494",
+    "name": "奥兰多"
+  },
+  {
+    "code": "MCO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Orlando International",
+    "id": "495",
+    "name": "奥兰多（国际）"
+  },
+  {
+    "code": "OSA",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Osaka",
+    "id": "496",
+    "name": "大阪"
+  },
+  {
+    "code": "OSL",
+    "continent": "欧洲",
+    "country": "挪威",
+    "englishName": "OSLO",
+    "id": "497",
+    "name": "奥斯陆"
+  },
+  {
+    "code": "YOW",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Ottawa",
+    "id": "498",
+    "name": "渥太华"
+  },
+  {
+    "code": "OUA",
+    "continent": "非洲",
+    "country": "布基纳法索",
+    "englishName": "Ouagadougou",
+    "id": "499",
+    "name": "瓦加杜古"
+  },
+  {
+    "code": "OUL",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Oulu",
+    "id": "500",
+    "name": "奥卢"
+  },
+  {
+    "code": "OWB",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Owensboro",
+    "id": "501",
+    "name": "欧温斯波洛"
+  },
+  {
+    "code": "OXR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Oxnard",
+    "id": "502",
+    "name": "欧克斯纳"
+  },
+  {
+    "code": "PDG",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Padang",
+    "id": "503",
+    "name": "巴东"
+  },
+  {
+    "code": "PAH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Paducah",
+    "id": "504",
+    "name": "帕杜卡"
+  },
+  {
+    "code": "PLM",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Palembang",
+    "id": "505",
+    "name": "巨港"
+  },
+  {
+    "code": "PMO",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Palermo",
+    "id": "506",
+    "name": "巴勒莫"
+  },
+  {
+    "code": "PSP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Palm Springs",
+    "id": "507",
+    "name": "棕榈泉"
+  },
+  {
+    "code": "PMI",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "PALMA MALLORCA",
+    "id": "508",
+    "name": "帕尔马（马略卡岛）"
+  },
+  {
+    "code": "PFN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Panama City",
+    "id": "509",
+    "name": "巴拿马城"
+  },
+  {
+    "code": "PFO",
+    "continent": "亚洲",
+    "country": "塞浦路斯",
+    "englishName": "Paphos",
+    "id": "510",
+    "name": "帕福斯"
+  },
+  {
+    "code": "PBM",
+    "continent": "南美洲",
+    "country": "苏里南",
+    "englishName": "Paramaribo",
+    "id": "511",
+    "name": "帕拉马里博"
+  },
+  {
+    "code": "PAR",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "PARIS",
+    "id": "512",
+    "name": "巴黎"
+  },
+  {
+    "code": "PMF",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Parma",
+    "id": "513",
+    "name": "帕尔马"
+  },
+  {
+    "code": "PSC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pasco",
+    "id": "514",
+    "name": "帕斯科"
+  },
+  {
+    "code": "PUF",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Pau",
+    "id": "515",
+    "name": "波城"
+  },
+  {
+    "code": "PLN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pellston",
+    "id": "516",
+    "name": "佩尔斯顿"
+  },
+  {
+    "code": "PEN",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Penang",
+    "id": "517",
+    "name": "槟城"
+  },
+  {
+    "code": "PDT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pendleton",
+    "id": "518",
+    "name": "彭德尔顿"
+  },
+  {
+    "code": "PNS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pensacola",
+    "id": "519",
+    "name": "彭萨克拉"
+  },
+  {
+    "code": "YYF",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Penticton",
+    "id": "520",
+    "name": "潘提顿"
+  },
+  {
+    "code": "PIA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Peoria",
+    "id": "521",
+    "name": "皮若亚"
+  },
+  {
+    "code": "PEE",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "PERM",
+    "id": "522",
+    "name": "彼尔姆"
+  },
+  {
+    "code": "PGF",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Perpignan",
+    "id": "523",
+    "name": "佩皮尼昂"
+  },
+  {
+    "code": "PER",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Perth",
+    "id": "524",
+    "name": "佩斯"
+  },
+  {
+    "code": "PEG",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Perugia",
+    "id": "525",
+    "name": "佩鲁贾"
+  },
+  {
+    "code": "PSR",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Pescara",
+    "id": "526",
+    "name": "佩斯卡拉"
+  },
+  {
+    "code": "PEW",
+    "continent": "亚洲",
+    "country": "巴基斯坦",
+    "englishName": "Peshawar",
+    "id": "527",
+    "name": "白沙瓦"
+  },
+  {
+    "code": "PHL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Philadelphia",
+    "id": "528",
+    "name": "费城"
+  },
+  {
+    "code": "PNH",
+    "continent": "亚洲",
+    "country": "柬埔寨",
+    "englishName": "Phnom Penh",
+    "id": "529",
+    "name": "金边"
+  },
+  {
+    "code": "PHX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Phoenix",
+    "id": "530",
+    "name": "菲尼克斯（凤凰城）"
+  },
+  {
+    "code": "HKT",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Phuket",
+    "id": "531",
+    "name": "普吉"
+  },
+  {
+    "code": "PIR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pierre",
+    "id": "532",
+    "name": "皮埃尔"
+  },
+  {
+    "code": "PSA",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Pisa",
+    "id": "533",
+    "name": "比萨"
+  },
+  {
+    "code": "PIT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pittsburg",
+    "id": "534",
+    "name": "匹兹堡"
+  },
+  {
+    "code": "PIH",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pocatello",
+    "id": "535",
+    "name": "波卡特洛"
+  },
+  {
+    "code": "TGD",
+    "continent": "欧洲",
+    "country": "塞黑",
+    "englishName": "Podgorica",
+    "id": "536",
+    "name": "波德戈里察"
+  },
+  {
+    "code": "PTP",
+    "continent": "南美洲",
+    "country": "瓜德罗普岛",
+    "englishName": "Pointe a Pitre",
+    "id": "537",
+    "name": "皮特瓜角"
+  },
+  {
+    "code": "PNR",
+    "continent": "非洲",
+    "country": "刚果",
+    "englishName": "Pointe Noire",
+    "id": "538",
+    "name": "黑角"
+  },
+  {
+    "code": "XOP",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Poitiers",
+    "id": "539",
+    "name": "波亚提尔（火车站）"
+  },
+  {
+    "code": "CLM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Port Angeles",
+    "id": "540",
+    "name": "安吉拉斯港"
+  },
+  {
+    "code": "PAP",
+    "continent": "南美洲",
+    "country": "海地",
+    "englishName": "Port au Prince",
+    "id": "541",
+    "name": "太子港"
+  },
+  {
+    "code": "PLZ",
+    "continent": "非洲",
+    "country": "南非",
+    "englishName": "Port Elizabeth",
+    "id": "542",
+    "name": "伊丽莎白港"
+  },
+  {
+    "code": "PHC",
+    "continent": "非洲",
+    "country": "尼日利亚",
+    "englishName": "Port Harcourt",
+    "id": "543",
+    "name": "哈科特港"
+  },
+  {
+    "code": "PWM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Portland",
+    "id": "544",
+    "name": "波特兰（缅因州）"
+  },
+  {
+    "code": "PDX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Portland",
+    "id": "545",
+    "name": "波特兰（俄勒冈州）"
+  },
+  {
+    "code": "OPO",
+    "continent": "欧洲",
+    "country": "葡萄牙",
+    "englishName": "Portland",
+    "id": "546",
+    "name": "波尔图"
+  },
+  {
+    "code": "POZ",
+    "continent": "欧洲",
+    "country": "波兰",
+    "englishName": "POZNAN",
+    "id": "547",
+    "name": "波兹南"
+  },
+  {
+    "code": "PRG",
+    "continent": "欧洲",
+    "country": "捷克",
+    "englishName": "Prague",
+    "id": "548",
+    "name": "布拉格"
+  },
+  {
+    "code": "PQI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Presque Isle",
+    "id": "549",
+    "name": "普雷斯克岛"
+  },
+  {
+    "code": "YXS",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Prince George",
+    "id": "550",
+    "name": "乔治王子城"
+  },
+  {
+    "code": "YPR",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Prince Rupert",
+    "id": "551",
+    "name": "鲁伯特王子市"
+  },
+  {
+    "code": "PRN",
+    "continent": "欧洲",
+    "country": "塞黑",
+    "englishName": "Pristina",
+    "id": "552",
+    "name": "普里什蒂纳"
+  },
+  {
+    "code": "PVD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Providence",
+    "id": "553",
+    "name": "普罗维丹斯"
+  },
+  {
+    "code": "PPS",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Puerto Princesa",
+    "id": "554",
+    "name": "公主港"
+  },
+  {
+    "code": "PUW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Pullman",
+    "id": "555",
+    "name": "蒲门"
+  },
+  {
+    "code": "PUJ",
+    "continent": "南美洲",
+    "country": "多米尼加共和国",
+    "englishName": "Punta Cana",
+    "id": "556",
+    "name": "蓬特卡那"
+  },
+  {
+    "code": "PUS",
+    "continent": "亚洲",
+    "country": "韩国",
+    "englishName": "Pusan",
+    "id": "557",
+    "name": "釜山"
+  },
+  {
+    "code": "FNJ",
+    "continent": "亚洲",
+    "country": "北朝鲜",
+    "englishName": "Pyongyang",
+    "id": "558",
+    "name": "平壤"
+  },
+  {
+    "code": "YQB",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Quebec",
+    "id": "559",
+    "name": "魁北克"
+  },
+  {
+    "code": "ZQN",
+    "continent": "大洋洲",
+    "country": "新西兰",
+    "englishName": "Queenstown",
+    "id": "560",
+    "name": "皇后镇"
+  },
+  {
+    "code": "UIN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Quincy",
+    "id": "561",
+    "name": "昆西"
+  },
+  {
+    "code": "UIO",
+    "continent": "南美洲",
+    "country": "厄瓜多尔",
+    "englishName": "Quito",
+    "id": "562",
+    "name": "基多"
+  },
+  {
+    "code": "RBA",
+    "continent": "非洲",
+    "country": "摩洛哥",
+    "englishName": "Rabat",
+    "id": "563",
+    "name": "拉巴特"
+  },
+  {
+    "code": "RDU",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Raleigh",
+    "id": "564",
+    "name": "罗利"
+  },
+  {
+    "code": "RAP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Rapid City",
+    "id": "565",
+    "name": "拉皮德城"
+  },
+  {
+    "code": "RDD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Redding",
+    "id": "566",
+    "name": "雷丁(宾夕法尼亚州)"
+  },
+  {
+    "code": "RDM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Redmond",
+    "id": "567",
+    "name": "雷德蒙"
+  },
+  {
+    "code": "REG",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Reggio Calabria",
+    "id": "568",
+    "name": "雷焦卡拉布里亚"
+  },
+  {
+    "code": "YQR",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Regina",
+    "id": "569",
+    "name": "里贾纳"
+  },
+  {
+    "code": "RNS",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Rennes",
+    "id": "570",
+    "name": "雷恩"
+  },
+  {
+    "code": "RNO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Reno",
+    "id": "571",
+    "name": "里诺"
+  },
+  {
+    "code": "REK",
+    "continent": "欧洲",
+    "country": "冰岛",
+    "englishName": "Reykjavik",
+    "id": "572",
+    "name": "雷克雅未克"
+  },
+  {
+    "code": "RHI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Rhinelander",
+    "id": "573",
+    "name": "莱恩兰德"
+  },
+  {
+    "code": "RIC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Richmond",
+    "id": "574",
+    "name": "里士满"
+  },
+  {
+    "code": "RIX",
+    "continent": "欧洲",
+    "country": "拉脱维亚",
+    "englishName": "RIGA",
+    "id": "575",
+    "name": "里加"
+  },
+  {
+    "code": "RMI",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "RIMINI",
+    "id": "576",
+    "name": "里米尼"
+  },
+  {
+    "code": "RIO",
+    "continent": "南美洲",
+    "country": "巴西",
+    "englishName": "Rio De Janeiro",
+    "id": "577",
+    "name": "里约热内卢"
+  },
+  {
+    "code": "RUH",
+    "continent": "亚洲",
+    "country": "沙特阿拉伯",
+    "englishName": "Riyadh",
+    "id": "578",
+    "name": "利雅得"
+  },
+  {
+    "code": "ROA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Roanoke",
+    "id": "579",
+    "name": "罗阿诺克"
+  },
+  {
+    "code": "RST",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Rochester",
+    "id": "580",
+    "name": "罗契斯特（明尼苏达州）"
+  },
+  {
+    "code": "ROC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Rochester",
+    "id": "581",
+    "name": "罗契斯特（纽约州）"
+  },
+  {
+    "code": "RFD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Rockford",
+    "id": "582",
+    "name": "洛克福德"
+  },
+  {
+    "code": "RDZ",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Rodez",
+    "id": "583",
+    "name": "罗德兹"
+  },
+  {
+    "code": "ROM",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "ROME",
+    "id": "584",
+    "name": "罗马"
+  },
+  {
+    "code": "RTM",
+    "continent": "欧洲",
+    "country": "荷兰",
+    "englishName": "ROTTERDAM",
+    "id": "585",
+    "name": "鹿特丹"
+  },
+  {
+    "code": "RVN",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Rovaniemi",
+    "id": "586",
+    "name": "罗瓦涅米"
+  },
+  {
+    "code": "RXS",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Roxa",
+    "id": "587",
+    "name": "罗哈斯"
+  },
+  {
+    "code": "SMF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Sacramento",
+    "id": "588",
+    "name": "萨克拉门托"
+  },
+  {
+    "code": "MBS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Saginaw",
+    "id": "589",
+    "name": "塞基诺"
+  },
+  {
+    "code": "SXM",
+    "continent": "南美洲",
+    "country": "荷属安的列斯",
+    "englishName": "Saint Maarten",
+    "id": "590",
+    "name": "圣马丁"
+  },
+  {
+    "code": "SPN",
+    "continent": "大洋洲",
+    "country": "北马里亚纳群岛",
+    "englishName": "Saipan",
+    "id": "591",
+    "name": "塞班"
+  },
+  {
+    "code": "SLE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Salem",
+    "id": "592",
+    "name": "塞伦"
+  },
+  {
+    "code": "SLC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Salt lake City",
+    "id": "593",
+    "name": "盐湖城"
+  },
+  {
+    "code": "SZG",
+    "continent": "欧洲",
+    "country": "奥地利",
+    "englishName": "SALZBURG",
+    "id": "594",
+    "name": "萨尔斯堡"
+  },
+  {
+    "code": "KUF",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "Samara",
+    "id": "595",
+    "name": "萨马拉"
+  },
+  {
+    "code": "SZF",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Samsun Carsamba",
+    "id": "596",
+    "name": "萨姆松"
+  },
+  {
+    "code": "SAT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "San Antonio",
+    "id": "597",
+    "name": "圣安托万"
+  },
+  {
+    "code": "SAN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "San Diego",
+    "id": "598",
+    "name": "圣迪戈"
+  },
+  {
+    "code": "CLD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "San Diego Carlsbad",
+    "id": "599",
+    "name": "圣地亚哥 卡尔斯巴德"
+  },
+  {
+    "code": "SFO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "San Francisco",
+    "id": "600",
+    "name": "旧金山"
+  },
+  {
+    "code": "SJC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "San Jose",
+    "id": "601",
+    "name": "圣何塞"
+  },
+  {
+    "code": "SBP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "San Luis Obispo",
+    "id": "602",
+    "name": "圣路易斯-奥比斯波"
+  },
+  {
+    "code": "SAH",
+    "continent": "亚洲",
+    "country": "也门",
+    "englishName": "Sanaa",
+    "id": "603",
+    "name": "萨那"
+  },
+  {
+    "code": "SDK",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Sandakan",
+    "id": "604",
+    "name": "山打根"
+  },
+  {
+    "code": "TRF",
+    "continent": "欧洲",
+    "country": "挪威",
+    "englishName": "SANDEFJORD",
+    "id": "605",
+    "name": "散纳菲尤尔"
+  },
+  {
+    "code": "YSJ",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Sanit John",
+    "id": "606",
+    "name": "圣约翰"
+  },
+  {
+    "code": "SFQ",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Sanliurfa",
+    "id": "607",
+    "name": "萨利乌尔法"
+  },
+  {
+    "code": "SBA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Santa Barbara",
+    "id": "608",
+    "name": "圣芭芭拉"
+  },
+  {
+    "code": "SMX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Santa Maria",
+    "id": "609",
+    "name": "圣马利亚"
+  },
+  {
+    "code": "SCL",
+    "continent": "南美洲",
+    "country": "智利",
+    "englishName": "Santiago",
+    "id": "610",
+    "name": "圣地亚哥"
+  },
+  {
+    "code": "SCQ",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "SANTIAGO DE COMPO",
+    "id": "611",
+    "name": "圣地亚哥"
+  },
+  {
+    "code": "SDQ",
+    "continent": "南美洲",
+    "country": "多米尼加共和国",
+    "englishName": "Santo Domingo",
+    "id": "612",
+    "name": "圣多明戈"
+  },
+  {
+    "code": "SAO",
+    "continent": "南美洲",
+    "country": "巴西",
+    "englishName": "Sao Paulo",
+    "id": "613",
+    "name": "圣保罗"
+  },
+  {
+    "code": "SPK",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Sapporo",
+    "id": "614",
+    "name": "扎幌"
+  },
+  {
+    "code": "SJJ",
+    "continent": "欧洲",
+    "country": "波黑",
+    "englishName": "SARAJEVO",
+    "id": "615",
+    "name": "萨拉热窝"
+  },
+  {
+    "code": "YZR",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Sarnia",
+    "id": "616",
+    "name": "松妮亚"
+  },
+  {
+    "code": "YXE",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Saskatoon",
+    "id": "617",
+    "name": "萨斯卡通"
+  },
+  {
+    "code": "YAM",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Sault Ste-Marie",
+    "id": "618",
+    "name": "苏圣玛丽"
+  },
+  {
+    "code": "SAV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Savannah",
+    "id": "619",
+    "name": "沙凡那港市"
+  },
+  {
+    "code": "SEA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Seattle",
+    "id": "620",
+    "name": "西雅图"
+  },
+  {
+    "code": "SEL",
+    "continent": "亚洲",
+    "country": "韩国",
+    "englishName": "seoul",
+    "id": "621",
+    "name": "汉城"
+  },
+  {
+    "code": "SRG",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Semarang",
+    "id": "622",
+    "name": "三宝垄"
+  },
+  {
+    "code": "SDJ",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Senda",
+    "id": "623",
+    "name": "仙台"
+  },
+  {
+    "code": "SVQ",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "SEVILLE",
+    "id": "624",
+    "name": "塞维利亚"
+  },
+  {
+    "code": "ZTM",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Shamattawa",
+    "id": "625",
+    "name": "沙马塔瓦"
+  },
+  {
+    "code": "SNN",
+    "continent": "欧洲",
+    "country": "爱尔兰",
+    "englishName": "SHANNON",
+    "id": "626",
+    "name": "香农"
+  },
+  {
+    "code": "SHR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Sheridan",
+    "id": "627",
+    "name": "科罗拉多"
+  },
+  {
+    "code": "SHV",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Shreveport",
+    "id": "628",
+    "name": "什里夫波特"
+  },
+  {
+    "code": "SBW",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Sibu",
+    "id": "629",
+    "name": "锡布"
+  },
+  {
+    "code": "REP",
+    "continent": "亚洲",
+    "country": "柬埔寨",
+    "englishName": "Siem Reap",
+    "id": "630",
+    "name": "暹粒（吴哥窟）"
+  },
+  {
+    "code": "SIP",
+    "continent": "欧洲",
+    "country": "乌克兰",
+    "englishName": "Simferopol",
+    "id": "631",
+    "name": "辛菲罗波尔"
+  },
+  {
+    "code": "SIN",
+    "continent": "亚洲",
+    "country": "新加坡",
+    "englishName": "Singapore",
+    "id": "632",
+    "name": "新加坡"
+  },
+  {
+    "code": "FSD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Sious Falls",
+    "id": "633",
+    "name": "苏福尔斯"
+  },
+  {
+    "code": "SUX",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Sioux City",
+    "id": "634",
+    "name": "苏城"
+  },
+  {
+    "code": "SKP",
+    "continent": "欧洲",
+    "country": "马其顿",
+    "englishName": "SKOPJE",
+    "id": "635",
+    "name": "斯科普里"
+  },
+  {
+    "code": "SOF",
+    "continent": "欧洲",
+    "country": "保加利亚",
+    "englishName": "Sofia",
+    "id": "636",
+    "name": "索非亚"
+  },
+  {
+    "code": "SOC",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Solo City",
+    "id": "637",
+    "name": "索洛"
+  },
+  {
+    "code": "SBN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "South Bend",
+    "id": "638",
+    "name": "南本德"
+  },
+  {
+    "code": "SOU",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "SOUTHAMPTON",
+    "id": "639",
+    "name": "南安普顿"
+  },
+  {
+    "code": "GSP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Spartanburg",
+    "id": "640",
+    "name": "斯巴达堡"
+  },
+  {
+    "code": "SPU",
+    "continent": "欧洲",
+    "country": "克罗地亚",
+    "englishName": "Split",
+    "id": "641",
+    "name": "斯普利特"
+  },
+  {
+    "code": "GEG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Spokane",
+    "id": "642",
+    "name": "士波肯"
+  },
+  {
+    "code": "SGF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Springfield",
+    "id": "643",
+    "name": "斯普林菲尔德"
+  },
+  {
+    "code": "SPI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Springfield IL",
+    "id": "644",
+    "name": "斯普林菲尔德 IL"
+  },
+  {
+    "code": "RUN",
+    "continent": "非洲",
+    "country": "留尼汪",
+    "englishName": "St Denis De La Re",
+    "id": "645",
+    "name": "圣但尼"
+  },
+  {
+    "code": "LED",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "ST PETERSBURG",
+    "id": "646",
+    "name": "圣彼得堡"
+  },
+  {
+    "code": "YYT",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "St,John's",
+    "id": "647",
+    "name": "圣约翰斯"
+  },
+  {
+    "code": "STC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "St. Cloud",
+    "id": "648",
+    "name": "圣克劳德"
+  },
+  {
+    "code": "STL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "St.Louis",
+    "id": "649",
+    "name": "圣路易斯"
+  },
+  {
+    "code": "SCE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "State College",
+    "id": "650",
+    "name": "大学城"
+  },
+  {
+    "code": "SVG",
+    "continent": "欧洲",
+    "country": "挪威",
+    "englishName": "STAVANGER",
+    "id": "651",
+    "name": "斯塔凡格"
+  },
+  {
+    "code": "HDN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Steamboat Springs Hayden Yampa Valley",
+    "id": "652",
+    "name": "斯廷博特斯普林斯"
+  },
+  {
+    "code": "STO",
+    "continent": "欧洲",
+    "country": "瑞典",
+    "englishName": "STOCKHOLM",
+    "id": "653",
+    "name": "斯德哥尔摩"
+  },
+  {
+    "code": "SXB",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Strasbourg",
+    "id": "654",
+    "name": "斯特拉斯堡"
+  },
+  {
+    "code": "STR",
+    "continent": "欧洲",
+    "country": "德国",
+    "englishName": "STUTTGART",
+    "id": "655",
+    "name": "斯图加特"
+  },
+  {
+    "code": "YSB",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Sudbury",
+    "id": "656",
+    "name": "萨德伯里"
+  },
+  {
+    "code": "SUN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Sun Valley",
+    "id": "657",
+    "name": "太阳谷"
+  },
+  {
+    "code": "SUW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Superior",
+    "id": "658",
+    "name": "苏必利尔"
+  },
+  {
+    "code": "SUB",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Surabaya",
+    "id": "659",
+    "name": "泗水"
+  },
+  {
+    "code": "URT",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Surat Thani",
+    "id": "660",
+    "name": "素叻"
+  },
+  {
+    "code": "SYD",
+    "continent": "大洋洲",
+    "country": "澳大利亚",
+    "englishName": "Sydney",
+    "id": "661",
+    "name": "悉尼"
+  },
+  {
+    "code": "YQY",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Sydney",
+    "id": "662",
+    "name": "西尼"
+  },
+  {
+    "code": "SYR",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Syracuse",
+    "id": "663",
+    "name": "锡拉库扎"
+  },
+  {
+    "code": "TAC",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Tacloban",
+    "id": "664",
+    "name": "塔克洛班"
+  },
+  {
+    "code": "TAE",
+    "continent": "亚洲",
+    "country": "韩国",
+    "englishName": "Taegu",
+    "id": "665",
+    "name": "大丘"
+  },
+  {
+    "code": "TAG",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Tagbilaran",
+    "id": "666",
+    "name": "塔比拉兰"
+  },
+  {
+    "code": "TPE",
+    "continent": "亚洲",
+    "country": "台湾地区",
+    "englishName": "Taipei",
+    "id": "667",
+    "name": "台北"
+  },
+  {
+    "code": "TLL",
+    "continent": "欧洲",
+    "country": "爱沙尼亚",
+    "englishName": "Tallinn",
+    "id": "668",
+    "name": "塔林"
+  },
+  {
+    "code": "TPA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Tampa",
+    "id": "669",
+    "name": "坦帕"
+  },
+  {
+    "code": "TMP",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Tampere",
+    "id": "670",
+    "name": "坦佩雷"
+  },
+  {
+    "code": "TAS",
+    "continent": "亚洲",
+    "country": "乌兹别克斯坦",
+    "englishName": "Tashkent",
+    "id": "671",
+    "name": "塔什干"
+  },
+  {
+    "code": "TWU",
+    "continent": "亚洲",
+    "country": "马来西亚",
+    "englishName": "Tawau",
+    "id": "672",
+    "name": "斗湖"
+  },
+  {
+    "code": "TBS",
+    "continent": "欧洲",
+    "country": "格鲁吉亚",
+    "englishName": "TBILISI",
+    "id": "673",
+    "name": "第比利斯"
+  },
+  {
+    "code": "MME",
+    "continent": "欧洲",
+    "country": "英国",
+    "englishName": "TEESSIDE",
+    "id": "674",
+    "name": "泰斯"
+  },
+  {
+    "code": "THR",
+    "continent": "亚洲",
+    "country": "伊朗",
+    "englishName": "Tehran",
+    "id": "675",
+    "name": "德黑兰"
+  },
+  {
+    "code": "TLV",
+    "continent": "亚洲",
+    "country": "以色列",
+    "englishName": "Telaviv",
+    "id": "676",
+    "name": "特拉维夫"
+  },
+  {
+    "code": "TCI",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "TENERIFE",
+    "id": "677",
+    "name": "特内里费"
+  },
+  {
+    "code": "YXT",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Terrace",
+    "id": "678",
+    "name": "德瑞司"
+  },
+  {
+    "code": "SKG",
+    "continent": "欧洲",
+    "country": "希腊",
+    "englishName": "THESSALONIKI",
+    "id": "679",
+    "name": "塞萨洛尼基"
+  },
+  {
+    "code": "TVF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Thief River Falls",
+    "id": "680",
+    "name": "小偷河瀑布市"
+  },
+  {
+    "code": "TRV",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Thiruvananthapura",
+    "id": "681",
+    "name": "特里凡得琅"
+  },
+  {
+    "code": "YQT",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Thunder Bay",
+    "id": "682",
+    "name": "雷湾"
+  },
+  {
+    "code": "TSR",
+    "continent": "欧洲",
+    "country": "塞黑",
+    "englishName": "Timisoara",
+    "id": "683",
+    "name": "蒂米什瓦拉"
+  },
+  {
+    "code": "TIA",
+    "continent": "欧洲",
+    "country": "阿尔巴尼亚",
+    "englishName": "TIRANA",
+    "id": "684",
+    "name": "地拉那"
+  },
+  {
+    "code": "TRZ",
+    "continent": "亚洲",
+    "country": "印度",
+    "englishName": "Tiruchirapally",
+    "id": "685",
+    "name": "蒂鲁吉拉伯利"
+  },
+  {
+    "code": "TYO",
+    "continent": "亚洲",
+    "country": "日本",
+    "englishName": "Tokyo",
+    "id": "686",
+    "name": "东京"
+  },
+  {
+    "code": "TOL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Toledo",
+    "id": "687",
+    "name": "托莱多"
+  },
+  {
+    "code": "YTO",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Toronto",
+    "id": "688",
+    "name": "多倫多"
+  },
+  {
+    "code": "YYZ",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Toronto",
+    "id": "689",
+    "name": "多伦多"
+  },
+  {
+    "code": "TLS",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Toulouse",
+    "id": "690",
+    "name": "图卢兹"
+  },
+  {
+    "code": "TUF",
+    "continent": "欧洲",
+    "country": "法国",
+    "englishName": "Tours",
+    "id": "691",
+    "name": "图尔"
+  },
+  {
+    "code": "TZX",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Trabzon",
+    "id": "692",
+    "name": "特拉布宗"
+  },
+  {
+    "code": "TST",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Trang",
+    "id": "693",
+    "name": "董里"
+  },
+  {
+    "code": "TVC",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Traverse City",
+    "id": "694",
+    "name": "特拉佛斯城"
+  },
+  {
+    "code": "TRS",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "TRIESTE",
+    "id": "695",
+    "name": "的里雅斯特"
+  },
+  {
+    "code": "TIP",
+    "continent": "非洲",
+    "country": "利比亚",
+    "englishName": "Tripoli",
+    "id": "696",
+    "name": "的黎波里"
+  },
+  {
+    "code": "TRD",
+    "continent": "欧洲",
+    "country": "挪威",
+    "englishName": "TRONDHEIM",
+    "id": "697",
+    "name": "特隆赫姆"
+  },
+  {
+    "code": "TUS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Tucson",
+    "id": "698",
+    "name": "图森"
+  },
+  {
+    "code": "TUG",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Tuguegarao",
+    "id": "699",
+    "name": "土格加劳"
+  },
+  {
+    "code": "TUL",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Tulsa",
+    "id": "700",
+    "name": "塔尔萨"
+  },
+  {
+    "code": "TUN",
+    "continent": "非洲",
+    "country": "突尼斯",
+    "englishName": "TUNIS",
+    "id": "701",
+    "name": "突尼斯"
+  },
+  {
+    "code": "TUP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Tupelo",
+    "id": "702",
+    "name": "吐丕洛"
+  },
+  {
+    "code": "TRN",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "TURIN",
+    "id": "703",
+    "name": "都灵"
+  },
+  {
+    "code": "TKU",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Turku",
+    "id": "704",
+    "name": "图尔库"
+  },
+  {
+    "code": "TWF",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Twins Falls",
+    "id": "705",
+    "name": "双子瀑布"
+  },
+  {
+    "code": "UTH",
+    "continent": "亚洲",
+    "country": "泰国",
+    "englishName": "Udon Thani",
+    "id": "706",
+    "name": "乌隆"
+  },
+  {
+    "code": "UPG",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Ujung Pandang",
+    "id": "707",
+    "name": "乌戎潘当"
+  },
+  {
+    "code": "VAA",
+    "continent": "欧洲",
+    "country": "芬兰",
+    "englishName": "Vaasa",
+    "id": "708",
+    "name": "瓦萨"
+  },
+  {
+    "code": "EGE",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Vail",
+    "id": "709",
+    "name": "威尔"
+  },
+  {
+    "code": "YVO",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Val d'or",
+    "id": "710",
+    "name": "瓦多尔"
+  },
+  {
+    "code": "VLC",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "Valencia",
+    "id": "711",
+    "name": "巴伦西亚"
+  },
+  {
+    "code": "VLL",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "Valladolid",
+    "id": "712",
+    "name": "巴利亚多利德"
+  },
+  {
+    "code": "VPS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Valparaiso",
+    "id": "713",
+    "name": "万帕拉索"
+  },
+  {
+    "code": "VAN",
+    "continent": "欧洲",
+    "country": "土耳其",
+    "englishName": "Van",
+    "id": "714",
+    "name": "凡城"
+  },
+  {
+    "code": "YVR",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Vancouver",
+    "id": "715",
+    "name": "温哥华"
+  },
+  {
+    "code": "VAR",
+    "continent": "欧洲",
+    "country": "保加利亚",
+    "englishName": "Varna",
+    "id": "716",
+    "name": "瓦尔纳"
+  },
+  {
+    "code": "VCE",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "VENICE",
+    "id": "717",
+    "name": "威尼斯"
+  },
+  {
+    "code": "VRN",
+    "continent": "欧洲",
+    "country": "意大利",
+    "englishName": "Verona",
+    "id": "718",
+    "name": "维罗纳"
+  },
+  {
+    "code": "YYJ",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Victoria",
+    "id": "719",
+    "name": "维多利亚"
+  },
+  {
+    "code": "VFA",
+    "continent": "非洲",
+    "country": "津巴布韦",
+    "englishName": "Victoria Falls",
+    "id": "720",
+    "name": "维多利亚大瀑布"
+  },
+  {
+    "code": "VIE",
+    "continent": "欧洲",
+    "country": "奥地利",
+    "englishName": "Vienna",
+    "id": "721",
+    "name": "维也纳"
+  },
+  {
+    "code": "VTE",
+    "continent": "亚洲",
+    "country": "老挝",
+    "englishName": "Vientiane",
+    "id": "722",
+    "name": "万象"
+  },
+  {
+    "code": "VNO",
+    "continent": "欧洲",
+    "country": "立陶宛",
+    "englishName": "VILNIUS",
+    "id": "723",
+    "name": "维尔纽斯"
+  },
+  {
+    "code": "VIS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Visalia",
+    "id": "724",
+    "name": "维沙利亚"
+  },
+  {
+    "code": "VVO",
+    "continent": "欧洲",
+    "country": "俄罗斯",
+    "englishName": "Vladivostok",
+    "id": "725",
+    "name": "符拉迪沃斯托克(海参崴)"
+  },
+  {
+    "code": "ALW",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Walla Walla",
+    "id": "726",
+    "name": "瓦拉瓦"
+  },
+  {
+    "code": "WAW",
+    "continent": "欧洲",
+    "country": "波兰",
+    "englishName": "WARSAW",
+    "id": "727",
+    "name": "华沙"
+  },
+  {
+    "code": "WAS",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Washington",
+    "id": "728",
+    "name": "华盛顿"
+  },
+  {
+    "code": "IAD",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Washington Dulles",
+    "id": "729",
+    "name": "华盛顿（杜勒斯机场）"
+  },
+  {
+    "code": "DCA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Washington Ronald",
+    "id": "730",
+    "name": "华盛顿（罗纳德机场）"
+  },
+  {
+    "code": "ALO",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Waterloo",
+    "id": "731",
+    "name": "沃特卢"
+  },
+  {
+    "code": "ATY",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Watertown",
+    "id": "732",
+    "name": "沃特敦"
+  },
+  {
+    "code": "CWA",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Wausau",
+    "id": "733",
+    "name": "沃沙"
+  },
+  {
+    "code": "WLG",
+    "continent": "大洋洲",
+    "country": "新西兰",
+    "englishName": "Wellington",
+    "id": "734",
+    "name": "惠灵顿"
+  },
+  {
+    "code": "EAT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Wenatchee",
+    "id": "735",
+    "name": "韦纳奇"
+  },
+  {
+    "code": "PBI",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "West Palm Beach",
+    "id": "736",
+    "name": "西棕榈滩"
+  },
+  {
+    "code": "HPN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Westchester County",
+    "id": "737",
+    "name": "威斯特郡"
+  },
+  {
+    "code": "HPN",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "White Plains",
+    "id": "738",
+    "name": "白平原"
+  },
+  {
+    "code": "ICT",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Wichita",
+    "id": "739",
+    "name": "威奇塔"
+  },
+  {
+    "code": "AVP",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Wilkes-Barre",
+    "id": "740",
+    "name": "威尔克斯—巴里"
+  },
+  {
+    "code": "WDH",
+    "continent": "非洲",
+    "country": "纳米比亚",
+    "englishName": "Windhoek",
+    "id": "741",
+    "name": "温得和克"
+  },
+  {
+    "code": "YQG",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Windsor",
+    "id": "742",
+    "name": "温莎"
+  },
+  {
+    "code": "YWG",
+    "continent": "北美洲",
+    "country": "加拿大",
+    "englishName": "Winnipeg",
+    "id": "743",
+    "name": "温尼贝格"
+  },
+  {
+    "code": "WRO",
+    "continent": "欧洲",
+    "country": "波兰",
+    "englishName": "WROCLAW",
+    "id": "744",
+    "name": "弗罗茨瓦夫"
+  },
+  {
+    "code": "YKM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Yakima",
+    "id": "745",
+    "name": "雅吉瓦"
+  },
+  {
+    "code": "RGN",
+    "continent": "亚洲",
+    "country": "缅甸",
+    "englishName": "Yangon",
+    "id": "746",
+    "name": "仰光"
+  },
+  {
+    "code": "YAO",
+    "continent": "非洲",
+    "country": "喀麦隆",
+    "englishName": "Yaounde",
+    "id": "747",
+    "name": "雅温得"
+  },
+  {
+    "code": "EVN",
+    "continent": "欧洲",
+    "country": "亚美尼亚",
+    "englishName": "YEREVAN",
+    "id": "748",
+    "name": "埃里温"
+  },
+  {
+    "code": "JOG",
+    "continent": "亚洲",
+    "country": "印度尼西亚",
+    "englishName": "Yogyakarta",
+    "id": "749",
+    "name": "日惹"
+  },
+  {
+    "code": "YNG",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Youngstown",
+    "id": "750",
+    "name": "扬斯敦"
+  },
+  {
+    "code": "YUM",
+    "continent": "北美洲",
+    "country": "美国",
+    "englishName": "Yuma",
+    "id": "751",
+    "name": "优马"
+  },
+  {
+    "code": "ZAG",
+    "continent": "欧洲",
+    "country": "克罗地亚",
+    "englishName": "ZAGREB",
+    "id": "752",
+    "name": "萨格勒布"
+  },
+  {
+    "code": "ZAM",
+    "continent": "亚洲",
+    "country": "菲律宾",
+    "englishName": "Zamboanga",
+    "id": "753",
+    "name": "三宝颜"
+  },
+  {
+    "code": "ZAZ",
+    "continent": "欧洲",
+    "country": "西班牙",
+    "englishName": "Zaragoza",
+    "id": "754",
+    "name": "萨拉戈萨"
+  },
+  {
+    "code": "ZRH",
+    "continent": "欧洲",
+    "country": "瑞士",
+    "englishName": "Zurich",
+    "id": "755",
+    "name": "苏黎世"
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<page>
+    <ORDER>
+        <isChangePassenger>false</isChangePassenger>旅客类型是否发生变化（例如：增加了儿童或者婴儿，那么就应该填true）
+        <ADULTNUM>1</ADULTNUM> ---成人旅客数
+        <CHILDNUM>0</CHILDNUM> ---儿童旅客数
+        <INFANTNUM>0</INFANTNUM> ----婴儿旅客数
+        <VIPNUM></VIPNUM>-- 大客户号，可为空
+        <SEGMENTS>
+            <SEGMENT>
+                <SEGTYPE>S</SEGTYPE> ---航程 S单程 R来回程
+                <DEPCITY>replaceDEPCITY</DEPCITY> ---出发城市三字码
+                <ARRCITY>replaceARRCITY</ARRCITY> ---到达城市三字码
+                <DEPDATETIME>replaceDEPDATETIME</DEPDATETIME> ---出发时间
+                <ARRDATETIME>replaceARRDATETIME</ARRDATETIME> ---到达时间
+                <FLIGHT>
+                      <CARRIER></CARRIER> ---承运人
+                      <FLIGHTNO>replaceFLIGHTNO</FLIGHTNO> --航班号
+                      <DEPAIRPORT></DEPAIRPORT> ---出发机场三字码
+                      <ARRAIRPORT></ARRAIRPORT> ---到达机场三字码
+                      <DEPTIME></DEPTIME> ---出发时间
+                      <ARRTIME></ARRTIME> ---到达时间
+                      <CABIN></CABIN> ---舱位
+                      <BOOKINGCLASSAVAILS></BOOKINGCLASSAVAILS> ---航班舱位情况
+                </FLIGHT>
+            </SEGMENT>
+        </SEGMENTS>
+    </ORDER>
+</page>
