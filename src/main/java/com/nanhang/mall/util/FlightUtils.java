@@ -13,10 +13,10 @@ import org.springframework.util.FileCopyUtils;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 import java.security.interfaces.RSAPublicKey;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -37,16 +37,20 @@ public class FlightUtils {
     /**
      * 合作伙伴密码
      */
-    private static String password = "asdsd";
+    private static String password = "CZSHOP/CZSHOP2016";
     /**
      * 请求的URL
      */
-    private static String URL = "http://127.0.0.1/E-UNION/data/order/getAvPrice.do?type=TAOBAO&param=";
+    private static String URL =
+            //4国际航班Pricing接口(B2C)
+            "http://10.79.0.86:9080/E-UNION/data/order/international/priceInfoInter.do?type=B2G&param=";
 
     static {
-        InputStream cityCodeInputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("CityCode.json");
+        InputStream cityCodeInputStream = Thread.currentThread().getContextClassLoader()
+                .getResourceAsStream("CityCode.json");
         InputStreamReader cityCodeReader = new InputStreamReader(cityCodeInputStream, Charset.forName("UTF-8"));
-        InputStream xmlStringInputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("FlightQueryParamsTemplate.xml");
+        InputStream xmlStringInputStream = Thread.currentThread().getContextClassLoader()
+                .getResourceAsStream("test.xml");
         InputStreamReader xmlStringReader = new InputStreamReader(xmlStringInputStream, Charset.forName("UTF-8"));
         try {
             String s = FileCopyUtils.copyToString(cityCodeReader);
@@ -62,8 +66,11 @@ public class FlightUtils {
 
     public static void main(String[] args) throws Exception {
         FlightQueryDto qo = new FlightQueryDto();
+        qo.setArrCity("WAS");
+        qo.setDepCity("PEK");
+        qo.setDepDateTime(new Date());
         String s = handleOrderRequest(qo);
-        System.out.println("s = " + s);
+        System.out.println("返回的数据 = " + s);
     }
 
     public static String handleOrderRequest(FlightQueryDto qo) throws Exception {
@@ -72,11 +79,13 @@ public class FlightUtils {
         RSA rsa = new RSA();
         RSAPublicKey publicKey = (RSAPublicKey) rsa.readFromFile("D:\\nanhang\\workspace\\FlightCenter\\src\\main\\resources\\public.dat");
         byte[] encbyte = rsa.encrypt(password, publicKey);
-        String param = RSA.toHexString(encbyte);
+        String param = rsa.toHexString(encbyte);
         //调用的URL
         String url = URL + param;
+        System.out.println("发送的url = " + url);
         //得到入参xml明文
         String xmlString = getXmlString(qo);
+        //System.out.println("xmlString = " + xmlString);
         //对XML进行加密加压
         Encrypt encrypt = new Encrypt();
         byte[] encoded = Encrypt.encryptMode(xmlString.getBytes());
@@ -85,7 +94,7 @@ public class FlightUtils {
         xmlString = new String(zipInputString, "UTF-8");
         //发送请求得到返回数据
         byte[] httpResult = handleRequest(url, xmlString);
-        //对返回的xmlString进行解压解官
+        //对返回的xmlString进行解压解密
         result = decode(httpResult);
         return result;
     }
@@ -113,7 +122,6 @@ public class FlightUtils {
     }
 
     private static String encryptXmlString(String xml) throws IOException {
-        String result;
         //所有请求接口的参数数据进行3DES加密加压处理
         //加密：
         Encrypt encrypt = new Encrypt();
@@ -121,8 +129,7 @@ public class FlightUtils {
         String encodeInputString = encrypt.encode(encoded);
         //加压
         byte[] zipInputString = GZipUtil.gzip(encodeInputString.getBytes("UTF-8"));
-        result = new String(zipInputString, "UTF-8");
-        return result;
+        return new String(zipInputString, "UTF-8");
     }
 
     /**
