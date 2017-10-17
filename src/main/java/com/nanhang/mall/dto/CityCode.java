@@ -59,4 +59,16 @@ public class CityCode {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    @Override
+    public String toString() {
+        return "CityCode{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", englishName='" + englishName + '\'' +
+                ", continent='" + continent + '\'' +
+                ", code='" + code + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
 }

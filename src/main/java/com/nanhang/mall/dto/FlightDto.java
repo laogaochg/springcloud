@@ -9,11 +9,11 @@ import java.util.Date;
  */
 public class FlightDto {
     /**
-     * 出发城市
+     * 出发城市三字码
      */
     private String depCity;
     /**
-     * 到达城市
+     * 到达城市三字码
      */
     private String arrCity;
     /**
@@ -28,6 +28,15 @@ public class FlightDto {
      * 航班号
      */
     private String flightNo;
+
+    /**
+     * 出发城市（中文）
+     */
+    private String depCityName;
+    /**
+     * 到达城市（中文）
+     */
+    private String arrCityName;
 
     public String getDepCity() {
         return depCity;
@@ -69,6 +78,22 @@ public class FlightDto {
         this.flightNo = flightNo;
     }
 
+    public String getDepCityName() {
+        return depCityName;
+    }
+
+    public void setDepCityName(String depCityName) {
+        this.depCityName = depCityName;
+    }
+
+    public String getArrCityName() {
+        return arrCityName;
+    }
+
+    public void setArrCityName(String arrCityName) {
+        this.arrCityName = arrCityName;
+    }
+
     @Override
     public String toString() {
         return "FlightDto{" +
@@ -77,6 +102,8 @@ public class FlightDto {
                 ", depDateTime=" + depDateTime +
                 ", arrDateTime=" + arrDateTime +
                 ", flightNo='" + flightNo + '\'' +
+                ", depCityName='" + depCityName + '\'' +
+                ", arrCityName='" + arrCityName + '\'' +
                 '}';
     }
 }

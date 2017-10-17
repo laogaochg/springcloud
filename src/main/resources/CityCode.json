@@ -6046,5 +6046,1229 @@
     "englishName": "Zurich",
     "id": "755",
     "name": "苏黎世"
+  },
+  {
+    "code": "HAK",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "756",
+    "name": "海口"
+  },
+  {
+    "code": "SYX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "757",
+    "name": "三亚"
+  },
+  {
+    "code": "CAN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "758",
+    "name": "广州"
+  },
+  {
+    "code": "ZUH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "759",
+    "name": "珠海"
+  },
+  {
+    "code": "SZX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "760",
+    "name": "深圳"
+  },
+  {
+    "code": "SWA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "761",
+    "name": "汕头"
+  },
+  {
+    "code": "MXZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "762",
+    "name": "梅州"
+  },
+  {
+    "code": "JID",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "763",
+    "name": "九江"
+  },
+  {
+    "code": "ZHA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "764",
+    "name": "湛江"
+  },
+  {
+    "code": "SHG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "765",
+    "name": "韶关"
+  },
+  {
+    "code": "XIN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "766",
+    "name": "兴宁"
+  },
+  {
+    "code": "NNG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "767",
+    "name": "南宁"
+  },
+  {
+    "code": "KWL",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "768",
+    "name": "桂林"
+  },
+  {
+    "code": "LZH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "769",
+    "name": "柳州"
+  },
+  {
+    "code": "WUZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "770",
+    "name": "梧州"
+  },
+  {
+    "code": "BHY",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "771",
+    "name": "北海"
+  },
+  {
+    "code": "CSX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "772",
+    "name": "长沙"
+  },
+  {
+    "code": "DYG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "773",
+    "name": "大庸"
+  },
+  {
+    "code": "DYG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "774",
+    "name": "张家界"
+  },
+  {
+    "code": "CGD",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "775",
+    "name": "常德"
+  },
+  {
+    "code": "HNY",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "776",
+    "name": "衡阳"
+  },
+  {
+    "code": "HJJ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "777",
+    "name": "芷江"
+  },
+  {
+    "code": "LLF",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "778",
+    "name": "永州"
+  },
+  {
+    "code": "DAX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "779",
+    "name": "达州"
+  },
+  {
+    "code": "WUH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "780",
+    "name": "武汉"
+  },
+  {
+    "code": "YIH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "781",
+    "name": "宜昌"
+  },
+  {
+    "code": "XFN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "782",
+    "name": "襄樊"
+  },
+  {
+    "code": "SHS",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "783",
+    "name": "沙市"
+  },
+  {
+    "code": "ENH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "784",
+    "name": "恩施"
+  },
+  {
+    "code": "FOC",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "785",
+    "name": "福州"
+  },
+  {
+    "code": "XMN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "786",
+    "name": "厦门"
+  },
+  {
+    "code": "WUS",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "787",
+    "name": "武夷山"
+  },
+  {
+    "code": "JJN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "788",
+    "name": "晋江"
+  },
+  {
+    "code": "",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "789",
+    "name": "泉州"
+  },
+  {
+    "code": "",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "790",
+    "name": ""
+  },
+  {
+    "code": "KOW",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "791",
+    "name": "漳州"
+  },
+  {
+    "code": "HRB",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "792",
+    "name": "哈尔滨"
+  },
+  {
+    "code": "NDG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "793",
+    "name": "齐齐哈尔"
+  },
+  {
+    "code": "MDG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "794",
+    "name": "牡丹江"
+  },
+  {
+    "code": "NZH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "795",
+    "name": "满洲里"
+  },
+  {
+    "code": "JMU",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "796",
+    "name": "佳木斯"
+  },
+  {
+    "code": "HEK",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "797",
+    "name": "黑河"
+  },
+  {
+    "code": "CTU",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "798",
+    "name": "成都"
+  },
+  {
+    "code": "LZO",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "799",
+    "name": "泸州"
+  },
+  {
+    "code": "YBP",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "800",
+    "name": "宜宾"
+  },
+  {
+    "code": "MIG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "801",
+    "name": "绵阳"
+  },
+  {
+    "code": "JZH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "802",
+    "name": "九寨沟"
+  },
+  {
+    "code": "PZI",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "803",
+    "name": "攀枝花"
+  },
+  {
+    "code": "DAX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "804",
+    "name": "达州"
+  },
+  {
+    "code": "WXH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "805",
+    "name": "万县"
+  },
+  {
+    "code": "XTC",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "806",
+    "name": "西昌市"
+  },
+  {
+    "code": "NAO",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "807",
+    "name": "南充"
+  },
+  {
+    "code": "BPX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "808",
+    "name": "梁平"
+  },
+  {
+    "code": "GHN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "809",
+    "name": "广汉"
+  },
+  {
+    "code": "GYS",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "810",
+    "name": "广元"
+  },
+  {
+    "code": "CGQ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "811",
+    "name": "长春"
+  },
+  {
+    "code": "JIL",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "812",
+    "name": "吉林"
+  },
+  {
+    "code": "YNJ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "813",
+    "name": "延吉"
+  },
+  {
+    "code": "TYN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "814",
+    "name": "太原"
+  },
+  {
+    "code": "DAT",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "815",
+    "name": "大同市"
+  },
+  {
+    "code": "CIH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "816",
+    "name": "长治市"
+  },
+  {
+    "code": "URC",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "817",
+    "name": "乌鲁木齐"
+  },
+  {
+    "code": "KHG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "818",
+    "name": "喀什"
+  },
+  {
+    "code": "YIN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "819",
+    "name": "伊宁"
+  },
+  {
+    "code": "KRL",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "820",
+    "name": "库尔勒"
+  },
+  {
+    "code": "AKU",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "821",
+    "name": "阿克苏"
+  },
+  {
+    "code": "HTN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "822",
+    "name": "和田"
+  },
+  {
+    "code": "AAT",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "823",
+    "name": "阿勒泰"
+  },
+  {
+    "code": "HMI",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "824",
+    "name": "哈密"
+  },
+  {
+    "code": "SHE",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "825",
+    "name": "沈阳"
+  },
+  {
+    "code": "DLC",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "826",
+    "name": "大连"
+  },
+  {
+    "code": "DDG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "827",
+    "name": "丹东"
+  },
+  {
+    "code": "IOB",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "828",
+    "name": "鞍山"
+  },
+  {
+    "code": "XNN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "829",
+    "name": "西宁"
+  },
+  {
+    "code": "GOQ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "830",
+    "name": "格尔木"
+  },
+  {
+    "code": "INC",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "831",
+    "name": "银川"
+  },
+  {
+    "code": "PEK",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "832",
+    "name": "北京"
+  },
+  {
+    "code": "NAY",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "833",
+    "name": "北京南苑"
+  },
+  {
+    "code": "HGH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "834",
+    "name": "杭州"
+  },
+  {
+    "code": "WNZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "835",
+    "name": "温州"
+  },
+  {
+    "code": "NGB",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "836",
+    "name": "宁波"
+  },
+  {
+    "code": "YIW",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "837",
+    "name": "义乌"
+  },
+  {
+    "code": "HSN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "838",
+    "name": "舟山"
+  },
+  {
+    "code": "HYN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "839",
+    "name": "黄岩"
+  },
+  {
+    "code": "JUZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "840",
+    "name": "衢州"
+  },
+  {
+    "code": "NKG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "841",
+    "name": "南京"
+  },
+  {
+    "code": "LYG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "842",
+    "name": "连云港"
+  },
+  {
+    "code": "NTG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "843",
+    "name": "南通"
+  },
+  {
+    "code": "CZX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "844",
+    "name": "常州"
+  },
+  {
+    "code": "XUZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "845",
+    "name": "徐州"
+  },
+  {
+    "code": "YNZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "846",
+    "name": "盐城"
+  },
+  {
+    "code": "WUX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "847",
+    "name": "无锡"
+  },
+  {
+    "code": "CKG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "848",
+    "name": "重庆"
+  },
+  {
+    "code": "TNA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "849",
+    "name": "济南"
+  },
+  {
+    "code": "WEH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "850",
+    "name": "威海"
+  },
+  {
+    "code": "TAO",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "851",
+    "name": "青岛"
+  },
+  {
+    "code": "YNT",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "852",
+    "name": "烟台"
+  },
+  {
+    "code": "JNG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "853",
+    "name": "济宁"
+  },
+  {
+    "code": "WEF",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "854",
+    "name": "潍坊"
+  },
+  {
+    "code": "DOY",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "855",
+    "name": "东营"
+  },
+  {
+    "code": "KHN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "856",
+    "name": "南昌"
+  },
+  {
+    "code": "JDZ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "857",
+    "name": "景德镇"
+  },
+  {
+    "code": "JIU",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "858",
+    "name": "九江"
+  },
+  {
+    "code": "JGS",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "859",
+    "name": "井冈山"
+  },
+  {
+    "code": "KOW",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "860",
+    "name": "赣州"
+  },
+  {
+    "code": "KWE",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "861",
+    "name": "贵阳"
+  },
+  {
+    "code": "ZYI",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "862",
+    "name": "遵义"
+  },
+  {
+    "code": "AVA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "863",
+    "name": "安顺"
+  },
+  {
+    "code": "TEN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "864",
+    "name": "铜云"
+  },
+  {
+    "code": "ACX",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "865",
+    "name": "兴义"
+  },
+  {
+    "code": "HFE",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "866",
+    "name": "合肥"
+  },
+  {
+    "code": "TXN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "867",
+    "name": "黄山"
+  },
+  {
+    "code": "FUG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "868",
+    "name": "阜阳"
+  },
+  {
+    "code": "AQG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "869",
+    "name": "安庆"
+  },
+  {
+    "code": "CGO",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "870",
+    "name": "郑州"
+  },
+  {
+    "code": "NNY",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "871",
+    "name": "南阳"
+  },
+  {
+    "code": "LYA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "872",
+    "name": "洛阳"
+  },
+  {
+    "code": "AYN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "873",
+    "name": "安阳"
+  },
+  {
+    "code": "SJW",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "874",
+    "name": "石家庄"
+  },
+  {
+    "code": "SHP",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "875",
+    "name": "秦皇岛"
+  },
+  {
+    "code": "SHF",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "876",
+    "name": "山海关"
+  },
+  {
+    "code": "",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "877",
+    "name": "西安"
+  },
+  {
+    "code": "ENY",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "878",
+    "name": "延安"
+  },
+  {
+    "code": "AKA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "879",
+    "name": "安康"
+  },
+  {
+    "code": "UYN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "880",
+    "name": "榆林"
+  },
+  {
+    "code": "HZG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "881",
+    "name": "汉中"
+  },
+  {
+    "code": "PVG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "882",
+    "name": ""
+  },
+  {
+    "code": "",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "883",
+    "name": "上海"
+  },
+  {
+    "code": "SHA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "884",
+    "name": ""
+  },
+  {
+    "code": "TAN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "885",
+    "name": "天津"
+  },
+  {
+    "code": "LHW",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "886",
+    "name": "兰州"
+  },
+  {
+    "code": "DNH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "887",
+    "name": "敦煌"
+  },
+  {
+    "code": "JGN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "888",
+    "name": "嘉裕关"
+  },
+  {
+    "code": "CHW",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "889",
+    "name": "酒泉"
+  },
+  {
+    "code": "IQN",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "890",
+    "name": "庆阳"
+  },
+  {
+    "code": "KMG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "891",
+    "name": "昆明"
+  },
+  {
+    "code": "LJG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "892",
+    "name": "丽江"
+  },
+  {
+    "code": "JHG",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "893",
+    "name": "景洪（西双版纳）"
+  },
+  {
+    "code": "DLU",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "894",
+    "name": "大理"
+  },
+  {
+    "code": "SYM",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "895",
+    "name": "思茅"
+  },
+  {
+    "code": "BSD",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "896",
+    "name": "保山"
+  },
+  {
+    "code": "LNJ",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "897",
+    "name": "临沧"
+  },
+  {
+    "code": "ZAT",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "898",
+    "name": "昭通"
+  },
+  {
+    "code": "YUA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "899",
+    "name": "元谋"
+  },
+  {
+    "code": "HET",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "900",
+    "name": "呼和浩特"
+  },
+  {
+    "code": "BAV",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "901",
+    "name": "包头"
+  },
+  {
+    "code": "XIL",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "902",
+    "name": "锡林浩特"
+  },
+  {
+    "code": "HLH",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "903",
+    "name": "乌兰浩特"
+  },
+  {
+    "code": "HLD",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "904",
+    "name": "海拉尔"
+  },
+  {
+    "code": "",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "905",
+    "name": ""
+  },
+  {
+    "code": "WUA",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "906",
+    "name": "乌海"
+  },
+  {
+    "code": "CIF",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "907",
+    "name": "赤峰"
+  },
+  {
+    "code": "TGO",
+    "continent": "亚洲",
+    "country": "中国",
+    "englishName": "",
+    "id": "908",
+    "name": "通辽"
   }
 ]

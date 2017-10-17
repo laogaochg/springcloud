@@ -21,15 +21,6 @@ public class FlightQueryDto {
      * 格式：2012-06-12 08:20
      */
     private Date depDateTime;
-    /**
-     * 到达时间
-     * 格式：2012-06-12 08:20
-     */
-    private Date arrDateTime;
-    /**
-     * 航班号
-     */
-    private String flightNo;
 
     public String getDepCity() {
         return depCity;
@@ -55,21 +46,6 @@ public class FlightQueryDto {
         this.depDateTime = depDateTime;
     }
 
-    public Date getArrDateTime() {
-        return arrDateTime;
-    }
-
-    public void setArrDateTime(Date arrDateTime) {
-        this.arrDateTime = arrDateTime;
-    }
-
-    public String getFlightNo() {
-        return flightNo;
-    }
-
-    public void setFlightNo(String flightNo) {
-        this.flightNo = flightNo;
-    }
 
     @Override
     public String toString() {
@@ -77,8 +53,6 @@ public class FlightQueryDto {
                 "depCity='" + depCity + '\'' +
                 ", arrCity='" + arrCity + '\'' +
                 ", depDateTime='" + depDateTime + '\'' +
-                ", arrDateTime='" + arrDateTime + '\'' +
-                ", flightNo='" + flightNo + '\'' +
                 '}';
     }
 }
