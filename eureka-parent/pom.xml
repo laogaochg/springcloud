@@ -20,18 +20,31 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <project.version>1.0.0</project.version>
         <spring-cloud.version>1.5.9.RELEASE</spring-cloud.version>
-        <spring-cloud-starter-eureka.version>1.4.0.RELEASE</spring-cloud-starter-eureka.version>
-        <spring-cloud.eureka-server.version>1.4.0.RELEASE</spring-cloud.eureka-server.version>
+        <spring-cloud-eureka.version>1.4.0.RELEASE</spring-cloud-eureka.version>
     </properties>
     <dependencyManagement>
-
         <dependencies>
+            <!-- 基础项目-->
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>eureka-base</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!-- eureka注册和消费端引用包-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-eureka</artifactId>
-                <version>${spring-cloud-starter-eureka.version}</version>
+                <version>${spring-cloud-eureka.version}</version>
             </dependency>
+            <!-- eureka注册中心引用包-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-eureka-server</artifactId>
+                <version>${spring-cloud-eureka.version}</version>
+            </dependency>
+            <!--单元测试-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
@@ -45,16 +58,11 @@
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-cloud.version}</version>
             </dependency>
-            <!--暴露各种指标-->
+            <!--暴露各种指标 （监控）配置和使用 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${spring-cloud.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-eureka-server</artifactId>
-                <version>${spring-cloud.eureka-server.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

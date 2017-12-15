@@ -1,10 +1,8 @@
 package com.example.eureka.service;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.example.eureka.dto.ExecuteResult;
 import com.example.eureka.dto.User;
+import com.example.eureka.util.RestTemplateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,8 +11,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.eureka.dto.ExecuteResult;
-import com.example.eureka.util.RestTemplateUtil;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @RestController
 public class CustomController {

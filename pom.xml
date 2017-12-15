@@ -6,10 +6,6 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <name>eureka</name>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <file.encoding>UTF-8</file.encoding>
-    </properties>
     <modules>
         <module>eureka-parent</module>
         <module>eureka-service</module>

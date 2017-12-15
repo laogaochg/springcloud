@@ -1,10 +1,6 @@
 package com.example.eureka.util;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.PostConstruct;
-
+import com.example.eureka.dto.ExecuteResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.ParameterizedTypeReference;
@@ -13,7 +9,10 @@ import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.eureka.dto.ExecuteResult;
+import javax.annotation.PostConstruct;
+import java.util.List;
+import java.util.Map;
+
 
 /**
  * @Author: LaoGaoChuang
@@ -28,7 +27,7 @@ public class RestTemplateUtil {
 
     private static RestTemplate restTemplate;
 
-    public static <T> ExecuteResult<List<T>> exchangeAsList(HttpMethod method,String url,Map<String,Object> params,ParameterizedTypeReference<ExecuteResult<List<T>>> responseType) {
+    public static <T> ExecuteResult<List<T>> exchangeAsList(HttpMethod method, String url, Map<String,Object> params, ParameterizedTypeReference<ExecuteResult<List<T>>> responseType) {
         HttpEntity requestEntity = new HttpEntity(params);
         return restTemplate.exchange(url,method,requestEntity,responseType).getBody();
     }
