@@ -8,6 +8,7 @@
     <name>eureka</name>
     <modules>
         <module>eureka-parent</module>
+        <module>eureka-base</module>
         <module>eureka-service</module>
         <module>eureka-prodive</module>
         <module>eureka-custom</module>
