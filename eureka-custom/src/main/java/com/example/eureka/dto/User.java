@@ -1,4 +1,4 @@
-package com.example.eureka.service;
+package com.example.eureka.dto;
 
 public class User {
     private String id ;

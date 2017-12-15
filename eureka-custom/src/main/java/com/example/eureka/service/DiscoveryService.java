@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by liaokailin on 16/4/30.
  */
-@Component
 @RestController
 public class DiscoveryService {
 

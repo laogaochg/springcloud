@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>eureka-project</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <name>eureka</name>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <file.encoding>UTF-8</file.encoding>
+    </properties>
+    <modules>
+        <module>eureka-parent</module>
+        <module>eureka-service</module>
+        <module>eureka-prodive</module>
+        <module>eureka-custom</module>
+    </modules>
+
+</project>
