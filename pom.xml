@@ -12,6 +12,7 @@
         <module>eureka-service</module>
         <module>eureka-prodive</module>
         <module>eureka-custom</module>
+        <module>feign-consumer</module>
     </modules>
 
 </project>

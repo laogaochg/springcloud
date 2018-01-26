@@ -22,6 +22,7 @@
         <java.version>1.8</java.version>
         <project.version>1.0.0</project.version>
         <spring-cloud.version>1.5.9.RELEASE</spring-cloud.version>
+        <spring-feign.version>1.4.0.RELEASE</spring-feign.version>
         <spring-cloud-eureka.version>1.4.0.RELEASE</spring-cloud-eureka.version>
     </properties>
     <dependencyManagement>
@@ -63,6 +64,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${spring-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-feign</artifactId>
+                <version>${spring-feign.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
