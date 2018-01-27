@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 控制台输出配置 -->
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}][%p] %c : %msg%n</Pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--第三方 jar 日志输出配置 -->
+    <logger name="com.csair.admin.core" level="DEBUG"/>
+    <logger name="org.springframework.core.env" level="INFO"/>
+    <logger name="org.springframework.beans" level="INFO"/>
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.mybatis.spring" level="INFO"/>
+    <!-- 日志输出适配器配置 -->
+    <root level="debug" name="com.csair.admin">
+        <!--输出到控制台-->
+        <appender-ref ref="stdout"/>
+    </root>
+</configuration>

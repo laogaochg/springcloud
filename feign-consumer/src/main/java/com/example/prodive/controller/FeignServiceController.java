@@ -1,11 +1,10 @@
 package com.example.prodive.controller;
 
 import com.example.consumer.FeignHelloService;
-import com.example.eureka.dto.ExecuteResult;
 import com.example.eureka.dto.User;
-import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,9 +16,23 @@ import java.util.List;
 public class FeignServiceController {
     @Autowired
     private FeignHelloService feignHelloService;
+    @Value("${from}")
+    private String from;
+    @Autowired
+    private Environment environment;
+    @RequestMapping("/configTest")
+    public String getUser1() {
+        System.out.println("FeignServiceController.getUser");
+        System.out.println(from);
+        System.out.println(environment);
+        return "";
+    }
 
     @RequestMapping("/FeignServiceController")
     public String getUser() {
+        System.out.println("FeignServiceController.getUser");
+        System.out.println(from);
+        System.out.println(environment);
         System.out.println(feignHelloService.hello2("hello2.name","hello2.age"));
         User user = new User();
         user.setName("天天");
