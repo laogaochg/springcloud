@@ -13,10 +13,11 @@ import java.util.Date;
  * @Date : 2018/3/14 20:47
  */
 @Component
-@RabbitListener(queues = "hello")
+@RabbitListener(queues = "test")
 public class Receiver {
     @RabbitHandler
     public void send(String s) {
+        System.out.println("-----------------------------------------");
         System.out.println("收到消息：" + s);
     }
 }

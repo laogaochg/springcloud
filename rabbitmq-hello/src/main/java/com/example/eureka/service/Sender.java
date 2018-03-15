@@ -18,6 +18,6 @@ public class Sender {
     public void send() {
         String s = "hello" + new Date();
         System.out.println(s);
-        this.amqpTemplate.convertAndSend("hello", s);
+        this.amqpTemplate.convertAndSend("test", s);
     }
 }
