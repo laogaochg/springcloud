@@ -12,8 +12,7 @@ import org.springframework.web.client.RestTemplate;
 public class CustomApplication {
 
     @Bean //定义REST客户端，RestTemplate实例
-    @LoadBalanced
-//开启负债均衡的能力
+    @LoadBalanced //开启负债均衡的能力
     RestTemplate restTemplate() {
         return new RestTemplate();
     }
