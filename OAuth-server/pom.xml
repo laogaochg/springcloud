@@ -9,16 +9,10 @@
         <relativePath>../eureka-parent</relativePath>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>feign-consumer</artifactId>
+    <artifactId>OAuth-server</artifactId>
     <version>${project.version}</version>
     <packaging>jar</packaging>
-
-    <name>feign-consumer</name>
-    <description>Demo project for Spring Boot</description>
-
-
-
-
+    <name>OAuth-server</name>
     <dependencies>
         <!-- 基础项目-->
         <dependency>
@@ -63,6 +57,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
