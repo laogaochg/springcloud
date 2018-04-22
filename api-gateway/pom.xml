@@ -9,11 +9,11 @@
         <relativePath>../eureka-parent</relativePath>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>feign-consumer</artifactId>
+    <artifactId>api-gateway</artifactId>
     <version>${project.version}</version>
     <packaging>jar</packaging>
 
-    <name>feign-consumer</name>
+    <name>api-gateway</name>
     <description>Demo project for Spring Boot</description>
 
 
@@ -26,39 +26,16 @@
             <artifactId>eureka-base</artifactId>
         </dependency>
 
-        <!--表示为web工程-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!--暴露各种指标-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
-
-        <!--spring cloud eureka-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
-        <!--声明式调用服务-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-        <!--分布式配置中心-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
+
     </dependencies>
 
     <build>

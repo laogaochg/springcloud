@@ -1,0 +1,20 @@
+server:
+    port: 5555
+spring:
+    application:
+        name: api-gateway
+zuul:
+    routes:
+        api-a:
+            path: /feign-consumer/**
+            serviceId: FEIGN-CONSUMER
+        api-b:
+            path: /RestTemplate/**
+            serviceId: EUREKA-CUSTOM
+        api-c:
+            path: /CLOUD-SIMPLE-SERVICE/**
+            serviceId: CLOUD-SIMPLE-SERVICE
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:1111/eureka/

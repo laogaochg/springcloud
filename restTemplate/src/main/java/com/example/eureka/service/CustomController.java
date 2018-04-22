@@ -21,12 +21,10 @@ public class CustomController {
     private RestTemplate restTemplate;
 
     @GetMapping(value = "/find")
-    public String find() {
+    public User find() {
         //url中对应api提供者的名称，全大写
-        User u = new User("111","天天");
-        String s = restTemplate.postForEntity("http://CLOUD-SIMPLE-SERVICE/getUser",u,String.class).getBody();
-        System.out.println("s = " + s);
-        return s;
+        User u = new User("111","天天"+ "com.example.eureka.service.CustomController.find()");
+        return u;
     }
     @RequestMapping("getOrderInnDayList")
     public List<User> getOrderInnDayList(String orderCode,Integer memberId){

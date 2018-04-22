@@ -16,14 +16,11 @@ import java.util.List;
 public class FeignServiceController {
     @Autowired
     private FeignHelloService feignHelloService;
-    @Value("${from}")
-    private String from;
     @Autowired
     private Environment environment;
     @RequestMapping("/configTest")
     public String getUser1() {
         System.out.println("FeignServiceController.getUser");
-        System.out.println(from);
         System.out.println(environment);
         return "";
     }
@@ -31,7 +28,6 @@ public class FeignServiceController {
     @RequestMapping("/FeignServiceController")
     public String getUser() {
         System.out.println("FeignServiceController.getUser");
-        System.out.println(from);
         System.out.println(environment);
         System.out.println(feignHelloService.hello2("hello2.name","hello2.age"));
         User user = new User();

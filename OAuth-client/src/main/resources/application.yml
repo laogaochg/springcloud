@@ -1,9 +1,6 @@
 server:
     port: 8082
     context-path: /ui
-    session:
-      cookie:
-          name: UISESSION
 spring:
     application:
         name: OAuth-client
