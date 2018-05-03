@@ -17,16 +17,13 @@
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
-        <!--SpringBoot整合Swagger2-->
+
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
         </dependency>
-        <!--SpringBoot整合Swagger2-->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-        </dependency>
+
     </dependencies>
 
 

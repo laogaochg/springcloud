@@ -12,7 +12,7 @@
     <groupId>com.example</groupId>
     <artifactId>rabbitmq-hello</artifactId>
     <version>${project.version}</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>rabbitmq-hello</name>
     <description>Demo project for Spring Boot</description>
