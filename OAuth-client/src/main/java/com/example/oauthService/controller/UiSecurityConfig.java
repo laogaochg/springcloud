@@ -15,10 +15,12 @@ public class UiSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**")
-                .authorizeRequests()
-                .antMatchers("/", "/login**")
-                .permitAll()
-                .anyRequest()
-                .authenticated();
+                .authorizeRequests()// 对请求进行认证
+                .antMatchers("/", "/login**").permitAll()// 所有 /login 请求 都放行
+                // 权限检查
+//                .antMatchers("/hello").hasAuthority("AUTH_WRITE")
+                // 角色检查
+//                .antMatchers("/world").hasRole("ADMIN")
+                .anyRequest().authenticated();
     }
 }

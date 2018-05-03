@@ -25,6 +25,7 @@
         <spring-feign.version>1.4.0.RELEASE</spring-feign.version>
         <spring-cloud-config-server.version>1.4.0.RELEASE</spring-cloud-config-server.version>
         <spring-cloud-eureka.version>1.4.0.RELEASE</spring-cloud-eureka.version>
+        <spring-cloud-zuul.version>1.4.0.RELEASE</spring-cloud-zuul.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -92,6 +93,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-amqp</artifactId>
                 <version>${spring-cloud.version}</version>
+            </dependency>
+            <!--路由-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>${spring-cloud-zuul.version}</version>
             </dependency>
 
             <!--SpringBoot整合Swagger2-->

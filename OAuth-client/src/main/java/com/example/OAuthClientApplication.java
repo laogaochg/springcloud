@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
-//@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class OAuthClientApplication {
 
     public static void main(String[] args) {

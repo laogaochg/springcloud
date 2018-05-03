@@ -14,12 +14,12 @@ import java.util.List;
  */
 @FeignClient("CLOUD-SIMPLE-SERVICE")
 public interface FeignHelloService {
-    @RequestMapping("/hello")
+    @RequestMapping("/eureka-prodive/hello")
     String hello();
-    @RequestMapping("/hello2")
+    @RequestMapping("/eureka-prodive/hello2")
     User hello2(@RequestHeader("name") String name,String age);
-    @RequestMapping("/hello3")
+    @RequestMapping("/eureka-prodive/hello3")
     String hello3(@RequestBody User us);
-    @RequestMapping("/hello4")
+    @RequestMapping("/eureka-prodive/hello4")
     List<User> hello4(@RequestBody List<User> us);
 }
