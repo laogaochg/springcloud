@@ -1,7 +1,7 @@
 package com.example.prodive.controller;
 
 import com.example.eureka.dto.ExecuteResult;
-import com.example.eureka.dto.User;
+import com.example.eureka.dto.UserDto;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,9 +17,9 @@ import java.util.List;
 public class ProvideServiceController {
 
     @RequestMapping("/getUser")
-    public User getUser(@RequestBody User us) {
+    public UserDto getUser(@RequestBody UserDto us) {
         System.out.println("us = " + us);
-        User u = new User();
+        UserDto u = new UserDto();
         u.setId("111");
         u.setName("天天");
         return u;
@@ -27,7 +27,7 @@ public class ProvideServiceController {
 
     @RequestMapping("/hello")
     public String hello() {
-        User u = new User();
+        UserDto u = new UserDto();
         u.setId("111");
         u.setName("天天");
         return u.toString();
@@ -36,21 +36,21 @@ public class ProvideServiceController {
     @RequestMapping("/hello2")
     @ApiOperation(value="获取用户详细信息", notes="根据url的id来获取用户详细信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
-    public User hello2(@RequestHeader String name,String age) {
+    public UserDto hello2(@RequestHeader String name, String age) {
         System.out.println("ProvideServiceController.hello2");
-        User u = new User();
+        UserDto u = new UserDto();
         u.setId(name);
         u.setName(age);
         return u;
     }
 
     @RequestMapping("/hello3")
-    public String hello3(@RequestBody User u) {
+    public String hello3(@RequestBody UserDto u) {
         System.out.println("ProvideServiceController.hello3");
         return "hello3:" + u.toString();
     }
     @RequestMapping("/hello4")
-    public List<User> hello4(@RequestBody List<User> u) {
+    public List<UserDto> hello4(@RequestBody List<UserDto> u) {
         System.out.println("ProvideServiceController.hello3"+u);
         u.addAll(u);
         return u;
@@ -58,15 +58,15 @@ public class ProvideServiceController {
 
 
     @RequestMapping("/getUserExecute")
-    public ExecuteResult<List<User>> getUserExecute(@RequestBody User us) {
+    public ExecuteResult<List<UserDto>> getUserExecute(@RequestBody UserDto us) {
         System.out.println("us = " + us);
-        ExecuteResult<List<User>> result = new ExecuteResult<>();
-        List<User> uss = new ArrayList<>();
-        User u = new User();
+        ExecuteResult<List<UserDto>> result = new ExecuteResult<>();
+        List<UserDto> uss = new ArrayList<>();
+        UserDto u = new UserDto();
         u.setId("111");
         u.setName("天天");
         uss.add(u);
-        User u2 = new  User();
+        UserDto u2 = new UserDto();
         u2.setId("2222");
         u2.setName("aaaaa");
         uss.add(u2);

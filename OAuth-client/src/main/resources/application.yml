@@ -14,7 +14,7 @@ security:
       accessTokenUri: http://localhost:8081/auth/oauth/token
       userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
     resource:
-      userInfoUri: http://localhost:8081/auth/user/me
+      userInfoUri: http://localhost:8081/auth/userDto/me
 eureka:
     client:
         serviceUrl:

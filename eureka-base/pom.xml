@@ -17,15 +17,9 @@
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
-        <!--SpringBoot整合Swagger2-->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-        </dependency>
-        <!--SpringBoot整合Swagger2-->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

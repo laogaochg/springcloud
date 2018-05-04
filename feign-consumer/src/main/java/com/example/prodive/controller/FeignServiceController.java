@@ -1,9 +1,8 @@
 package com.example.prodive.controller;
 
 import com.example.consumer.FeignHelloService;
-import com.example.eureka.dto.User;
+import com.example.eureka.dto.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,13 +29,13 @@ public class FeignServiceController {
         System.out.println("FeignServiceController.getUser");
         System.out.println(environment);
         System.out.println(feignHelloService.hello2("hello2.name","hello2.age"));
-        User user = new User();
-        user.setName("天天");
-        user.setId("322332");
-        System.out.println(feignHelloService.hello3(user));
-        List<User> us = new ArrayList<>();
-        us.add(user);
-        User use = new User();
+        UserDto userDto = new UserDto();
+        userDto.setName("天天");
+        userDto.setId("322332");
+        System.out.println(feignHelloService.hello3(userDto));
+        List<UserDto> us = new ArrayList<>();
+        us.add(userDto);
+        UserDto use = new UserDto();
         use.setName("死肥宅");
         us.add(use);
         System.out.println(feignHelloService.hello4(us));

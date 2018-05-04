@@ -1,7 +1,7 @@
 package com.example.eureka.service;
 
 import com.example.eureka.dto.ExecuteResult;
-import com.example.eureka.dto.User;
+import com.example.eureka.dto.UserDto;
 import com.example.eureka.util.RestTemplateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
@@ -21,20 +21,20 @@ public class CustomController {
     private RestTemplate restTemplate;
 
     @GetMapping(value = "/find")
-    public User find() {
+    public UserDto find() {
         //url中对应api提供者的名称，全大写
-        User u = new User("111","天天"+ "com.example.eureka.service.CustomController.find()");
+        UserDto u = new UserDto("111","天天"+ "com.example.eureka.service.CustomController.find()");
         return u;
     }
     @RequestMapping("getOrderInnDayList")
-    public List<User> getOrderInnDayList(String orderCode,Integer memberId){
+    public List<UserDto> getOrderInnDayList(String orderCode, Integer memberId){
         Map<String, Object> params = new HashMap<>();
         params.put("orderCode", orderCode);
         params.put("memberId", memberId);
         String url = "http://CLOUD-SIMPLE-SERVICE/getUserExecute";
         //use postForList
-        ExecuteResult<List<User>> result = RestTemplateUtil.postForList(url, params,
-                new ParameterizedTypeReference<ExecuteResult<List<User>>>(){});
+        ExecuteResult<List<UserDto>> result = RestTemplateUtil.postForList(url, params,
+                new ParameterizedTypeReference<ExecuteResult<List<UserDto>>>(){});
         return result.getData();
     }
 

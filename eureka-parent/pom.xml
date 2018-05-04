@@ -29,6 +29,11 @@
     </properties>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.6</version>
+            </dependency>
             <!-- 基础项目-->
             <dependency>
                 <groupId>com.example</groupId>

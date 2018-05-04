@@ -1,19 +1,16 @@
 package com.example.eureka.dto;
 
-import io.swagger.annotations.ApiModelProperty;
 
-public class User {
-    @ApiModelProperty("ID")
+public class UserDto {
     private String id ;
-    @ApiModelProperty(value = "用户名字",required = true)
     private String name;
 
-    public User(String id,String name) {
+    public UserDto(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public User() {
+    public UserDto() {
     }
 
     public String getId() {
@@ -34,7 +31,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "UserDto{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 '}';
