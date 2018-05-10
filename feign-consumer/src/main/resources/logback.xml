@@ -15,7 +15,7 @@
     <logger name="org.springframework" level="INFO"/>
     <logger name="org.mybatis.spring" level="INFO"/>
     <!-- 日志输出适配器配置 -->
-    <root level="debug" name="com.csair.admin">
+    <root level="INFO" name="com.csair.admin">
         <!--输出到控制台-->
         <appender-ref ref="stdout"/>
     </root>

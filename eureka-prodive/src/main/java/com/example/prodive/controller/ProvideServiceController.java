@@ -32,24 +32,41 @@ public class ProvideServiceController {
         u.setId("111");
         u.setName("天天");
         int i = new Random().nextInt(3000);
-        System.out.println("--------------------------------"+i);
+        System.out.println("--------------------------------" + i);
         System.out.println("ProvideServiceController.hello");
         try {
-            Thread.sleep(i*1000);
+            Thread.sleep(i);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return u.toString();
     }
 
+    private static List<String> countList = new ArrayList();
+    private static List<String> stateList = new ArrayList();
+
     @RequestMapping("/hello2")
-    @ApiOperation(value="获取用户详细信息", notes="根据url的id来获取用户详细信息")
+    @ApiOperation(value = "获取用户详细信息", notes = "根据url的id来获取用户详细信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
     public UserDto hello2(@RequestHeader String name, String age) {
         System.out.println("ProvideServiceController.hello2");
         UserDto u = new UserDto();
         u.setId(name);
         u.setName(age);
+        countList.add(name);
+        int i = new Random().nextInt(3000);
+        stateList.add(i + "");
+        System.out.println("---------------------------");
+        System.out.println(countList.size());
+        try {
+            Thread.sleep(2500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        if (countList.size() % 10 == 0) {
+            System.out.println(countList);
+            System.out.println(stateList);
+        }
         return u;
     }
 
@@ -58,9 +75,10 @@ public class ProvideServiceController {
         System.out.println("ProvideServiceController.hello3");
         return "hello3:" + u.toString();
     }
+
     @RequestMapping("/hello4")
     public List<UserDto> hello4(@RequestBody List<UserDto> u) {
-        System.out.println("ProvideServiceController.hello3"+u);
+        System.out.println("ProvideServiceController.hello3" + u);
         u.addAll(u);
         return u;
     }

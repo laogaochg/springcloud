@@ -41,13 +41,20 @@
                 <artifactId>eureka-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!-- 负载均衡-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-ribbon</artifactId>
+                <version>1.4.0.RELEASE</version>
+            </dependency>
+
             <!--断路器-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-hystrix</artifactId>
                 <version>${spring-hystrix.version}</version>
             </dependency>
-            <!--hystrix-dashboard 监控-->
+            <!--hystrix-dashboard 断路器 监控-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
