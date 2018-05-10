@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 
 @RestController
@@ -30,6 +31,14 @@ public class ProvideServiceController {
         UserDto u = new UserDto();
         u.setId("111");
         u.setName("天天");
+        int i = new Random().nextInt(3000);
+        System.out.println("--------------------------------"+i);
+        System.out.println("ProvideServiceController.hello");
+        try {
+            Thread.sleep(i*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return u.toString();
     }
 

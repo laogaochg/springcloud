@@ -20,6 +20,15 @@ public class CustomController {
     @Autowired
     private RestTemplate restTemplate;
 
+
+    @RequestMapping("/getUser")
+    public String getUser11() {
+        System.out.println("FeignServiceController.getUser");
+        String s = restTemplate.getForObject("http://CLOUD-SIMPLE-SERVICE/eureka-prodive/hello", String.class);
+        System.out.println("s = " + s);
+        return s;
+    }
+
     @GetMapping(value = "/find")
     public UserDto find() {
         //url中对应api提供者的名称，全大写

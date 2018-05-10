@@ -26,6 +26,7 @@
         <spring-cloud-config-server.version>1.4.0.RELEASE</spring-cloud-config-server.version>
         <spring-cloud-eureka.version>1.4.0.RELEASE</spring-cloud-eureka.version>
         <spring-cloud-zuul.version>1.4.0.RELEASE</spring-cloud-zuul.version>
+        <spring-hystrix.version>1.4.3.RELEASE</spring-hystrix.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -39,6 +40,18 @@
                 <groupId>com.example</groupId>
                 <artifactId>eureka-base</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <!--断路器-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-hystrix</artifactId>
+                <version>${spring-hystrix.version}</version>
+            </dependency>
+            <!--hystrix-dashboard 监控-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+                <version>${spring-hystrix.version}</version>
             </dependency>
             <!-- eureka注册和消费端引用包-->
             <dependency>

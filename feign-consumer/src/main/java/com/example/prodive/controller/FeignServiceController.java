@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,16 @@ public class FeignServiceController {
     private FeignHelloService feignHelloService;
     @Autowired
     private Environment environment;
+    @Autowired
+    private RestTemplate restTemplate;
+
+    @RequestMapping("/getUser")
+    public String getUser11() {
+        System.out.println("FeignServiceController.getUser");
+        String s = restTemplate.getForObject("http://CLOUD-SIMPLE-SERVICE/hello", String.class);
+        System.out.println("s = " + s);
+        return "";
+    }
     @RequestMapping("/configTest")
     public String getUser1() {
         System.out.println("FeignServiceController.getUser");
