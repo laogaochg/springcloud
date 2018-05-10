@@ -3,16 +3,17 @@ package com.example.eureka.dto;
 import lombok.Data;
 
 @Data
-public class User {
+public class UserDto {
     private String id ;
+
     private String name;
 
-    public User(String id,String name) {
+    public UserDto(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public User() {
+    public UserDto() {
     }
 
 }
