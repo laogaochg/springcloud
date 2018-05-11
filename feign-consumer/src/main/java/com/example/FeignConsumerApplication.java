@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
-//@EnableCircuitBreaker //开启断路器功能：
+@EnableCircuitBreaker //开启断路器功能：
 public class FeignConsumerApplication {
     @Bean //定义REST客户端，RestTemplate实例
     @LoadBalanced

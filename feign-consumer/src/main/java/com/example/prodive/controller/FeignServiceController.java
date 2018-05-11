@@ -20,7 +20,11 @@ public class FeignServiceController {
     private Environment environment;
     @Autowired
     private RestTemplate restTemplate;
-
+    @RequestMapping("/hello")
+    public String hello() {
+        String hello = feignHelloService.hello();
+        return hello;
+    }
     @RequestMapping("/getUser")
     public String getUser11() {
         System.out.println("FeignServiceController.getUser");

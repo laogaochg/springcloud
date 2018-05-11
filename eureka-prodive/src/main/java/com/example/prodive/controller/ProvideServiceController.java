@@ -27,46 +27,29 @@ public class ProvideServiceController {
     }
 
     @RequestMapping("/hello")
-    public String hello() {
+    public String hello() throws InterruptedException {
         UserDto u = new UserDto();
         u.setId("111");
         u.setName("天天");
         int i = new Random().nextInt(3000);
         System.out.println("--------------------------------" + i);
         System.out.println("ProvideServiceController.hello");
-        try {
-            Thread.sleep(i);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        Thread.sleep(3000);
         return u.toString();
     }
 
-    private static List<String> countList = new ArrayList();
-    private static List<String> stateList = new ArrayList();
 
     @RequestMapping("/hello2")
     @ApiOperation(value = "获取用户详细信息", notes = "根据url的id来获取用户详细信息")
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
-    public UserDto hello2(@RequestHeader String name, String age) {
+    public UserDto hello2(@RequestHeader String name, String age) throws InterruptedException {
         System.out.println("ProvideServiceController.hello2");
         UserDto u = new UserDto();
         u.setId(name);
         u.setName(age);
-        countList.add(name);
         int i = new Random().nextInt(3000);
-        stateList.add(i + "");
-        System.out.println("---------------------------");
-        System.out.println(countList.size());
-        try {
-            Thread.sleep(2500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        if (countList.size() % 10 == 0) {
-            System.out.println(countList);
-            System.out.println(stateList);
-        }
+        System.out.println("---------------------------" + i);
+        Thread.sleep(i);
         return u;
     }
 
