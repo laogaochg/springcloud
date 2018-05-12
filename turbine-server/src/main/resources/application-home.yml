@@ -1,0 +1,24 @@
+server:
+  port: 8989
+
+spring:
+  application:
+    name: turbine
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+#turbine:
+#  aggregator:
+#    #turbine监控的服务名称，可以多个
+#    clusterConfig: MAIN
+#  #turbine监控的服务，可以有多个
+#  appConfig: feign-consumer
+#  clusterNameExpression: metadata['cluster']
+##  cluster-name-expression: "default"
+#  combine-host-port: true

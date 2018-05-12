@@ -17,7 +17,8 @@
         <module>rabbitmq-hello</module>
         <module>OAuth-server</module>
         <module>OAuth-client</module>
-        <!--<module>api-gateway</module>-->
+        <module>api-gateway</module>
+        <module>turbine-server</module>
 
     </modules>
 

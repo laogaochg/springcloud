@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Author: LaoGaoChuang
  * @Date : 2018/5/10 15:23
@@ -14,23 +17,21 @@ import org.springframework.web.bind.annotation.RestController;
 public class HystrixTestControllerB {
     @Autowired
     private FeignHelloService feignHelloService;
-    public static long count = 0;
-    public static long fileCount = 0;
 
     @RequestMapping("/getUser11")
-//    @HystrixCommand(fallbackMethod = "helloFallback")
     public String getUser11() {
-        UserDto userDto = feignHelloService.hello2(count++ + "", "hello2.age");
-        System.out.println("FeignServiceController.getUser-----:  " + count);
-        System.out.println(count);
+        feignHelloService.hello();
+        UserDto userDto = feignHelloService.hello2("", "hello2.age");
+        List<UserDto> userDtos = feignHelloService.hello4(new ArrayList<>());
+        System.out.println("FeignServiceController.getUser-----:  " );
+        System.out.println("userDtos = " + userDtos);
         return userDto.toString();
 
     }
-
-    public String helloFallback() {
-        System.out.println("--------------------------------");
-        System.out.println(fileCount++);
-        return "error";
+    @RequestMapping("/feignHelloServiceHello")
+    public String feignHelloServiceHello() {
+        return feignHelloService.hello();
     }
+
 
 }

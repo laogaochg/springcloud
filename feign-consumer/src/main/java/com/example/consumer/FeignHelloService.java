@@ -14,7 +14,7 @@ import java.util.List;
  * @Author: LaoGaoChuang
  * @Date : 2018/1/26 23:23
  */
-@FeignClient(name = "CLOUD-SIMPLE-SERVICE", fallback = FeignHelloServiceFallBack.class)
+@FeignClient(name = "CLOUD-SIMPLE-SERVICE")
 public interface FeignHelloService {
     @RequestMapping("/eureka-prodive/hello")
     String hello();

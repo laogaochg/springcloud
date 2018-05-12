@@ -60,6 +60,13 @@
                 <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
                 <version>${spring-hystrix.version}</version>
             </dependency>
+            <!-- 断路器集群监控-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-turbine</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </dependency>
+
             <!-- eureka注册和消费端引用包-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>

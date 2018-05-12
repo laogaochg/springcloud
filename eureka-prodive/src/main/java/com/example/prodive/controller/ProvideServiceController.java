@@ -34,7 +34,6 @@ public class ProvideServiceController {
         int i = new Random().nextInt(3000);
         System.out.println("--------------------------------" + i);
         System.out.println("ProvideServiceController.hello");
-        Thread.sleep(3000);
         return u.toString();
     }
 
@@ -60,15 +59,19 @@ public class ProvideServiceController {
     }
 
     @RequestMapping("/hello4")
-    public List<UserDto> hello4(@RequestBody List<UserDto> u) {
+    public List<UserDto> hello4(@RequestBody List<UserDto> u) throws InterruptedException {
         System.out.println("ProvideServiceController.hello3" + u);
+        Thread.sleep(3000);
         u.addAll(u);
+        UserDto d = new UserDto();
+        d.setName("ProvideServiceController.hello4");
+        u.add(d);
         return u;
     }
 
 
     @RequestMapping("/getUserExecute")
-    public ExecuteResult<List<UserDto>> getUserExecute(@RequestBody UserDto us) {
+    public ExecuteResult<List<UserDto>> getUserExecute(@RequestBody UserDto us) throws InterruptedException {
         System.out.println("us = " + us);
         ExecuteResult<List<UserDto>> result = new ExecuteResult<>();
         List<UserDto> uss = new ArrayList<>();
@@ -82,6 +85,7 @@ public class ProvideServiceController {
         uss.add(u2);
         result.setData(uss);
         result.setSuccess(true);
+        Thread.sleep(3000);
         return result;
     }
 }
