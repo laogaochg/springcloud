@@ -10,12 +10,11 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>rabbitmq-hello</artifactId>
+    <artifactId>rabbitmq-server</artifactId>
     <version>${project.version}</version>
     <packaging>jar</packaging>
 
-    <name>rabbitmq-hello</name>
-    <description>Demo project for Spring Boot</description>
+    <name>rabbitmq-server</name>
 
 
     <dependencies>
