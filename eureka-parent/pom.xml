@@ -21,116 +21,29 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <project.version>1.0.0</project.version>
-        <spring-cloud.version>1.5.9.RELEASE</spring-cloud.version>
-        <spring-feign.version>1.4.0.RELEASE</spring-feign.version>
-        <spring-cloud-config-server.version>1.4.0.RELEASE</spring-cloud-config-server.version>
-        <spring-cloud-eureka.version>1.4.0.RELEASE</spring-cloud-eureka.version>
-        <spring-cloud-zuul.version>1.4.0.RELEASE</spring-cloud-zuul.version>
-        <spring-hystrix.version>1.4.3.RELEASE</spring-hystrix.version>
     </properties>
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>1.16.6</version>
-            </dependency>
             <!-- 基础项目-->
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>eureka-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <!-- 负载均衡-->
+            <!--版本管理-->
             <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-ribbon</artifactId>
-                <version>1.4.0.RELEASE</version>
-            </dependency>
-
-            <!--断路器-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-hystrix</artifactId>
-                <version>${spring-hystrix.version}</version>
-            </dependency>
-            <!--hystrix-dashboard 断路器 监控-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
-                <version>${spring-hystrix.version}</version>
-            </dependency>
-            <!-- 断路器集群监控-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-turbine</artifactId>
-                <version>1.4.4.RELEASE</version>
-            </dependency>
-
-            <!-- eureka注册和消费端引用包-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-eureka</artifactId>
-                <version>${spring-cloud-eureka.version}</version>
-            </dependency>
-            <!-- eureka注册中心引用包-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-eureka-server</artifactId>
-                <version>${spring-cloud-eureka.version}</version>
-            </dependency>
-            <!--单元测试-->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-test</artifactId>
-                <scope>test</scope>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-
-            <!--表示为web工程-->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-            <!--暴露各种指标 （监控）配置和使用 -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-actuator</artifactId>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-            <!-- 声明式调用服务-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-feign</artifactId>
-                <version>${spring-feign.version}</version>
-            </dependency>
-            <!-- 声明式调用服务-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-config-server</artifactId>
-                <version>${spring-cloud-config-server.version}</version>
+                <groupId>io.spring.platform</groupId>
+                <artifactId>platform-bom</artifactId>
+                <version>Brussels-SR7</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-config</artifactId>
-                <version>${spring-cloud-config-server.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-security</artifactId>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-amqp</artifactId>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-            <!--路由-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-zuul</artifactId>
-                <version>${spring-cloud-zuul.version}</version>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Edgware.SR2</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <!--SpringBoot整合Swagger2-->
@@ -146,22 +59,43 @@
                 <version>2.6.1</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.security.oauth</groupId>
-                <artifactId>spring-security-oauth2</artifactId>
-                <version>2.0.14.RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-thymeleaf</artifactId>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.thymeleaf.extras</groupId>
-                <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-                <version>3.0.2.RELEASE</version>
-            </dependency>
+            <!-- 负载均衡-->
+            <!--<artifactId>spring-cloud-starter-ribbon</artifactId>-->
+            <!--断路器-->
+            <!--<artifactId>spring-cloud-starter-hystrix</artifactId>-->
+            <!--hystrix-dashboard 断路器 监控-->
+            <!--<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>-->
+            <!-- 断路器集群监控-->
+            <!--<artifactId>spring-cloud-starter-turbine</artifactId>-->
+            <!-- eureka注册和消费端引用包-->
+            <!--<artifactId>spring-cloud-starter-eureka</artifactId>-->
+            <!-- eureka注册中心引用包-->
+            <!--<artifactId>spring-cloud-starter-eureka-server</artifactId>-->
+            <!--单元测试-->
+            <!--<artifactId>spring-boot-starter-test</artifactId>-->
+            <!--<scope>test</scope>-->
+            <!--表示为web工程-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+            <!--暴露各种指标 （监控）配置和使用 -->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
+            <!-- 声明式调用服务-->
+            <!--<artifactId>spring-cloud-starter-feign</artifactId>-->
+            <!-- 声明式调用服务-->
+            <!--<artifactId>spring-cloud-config-server</artifactId>-->
+            <!--配置中心-->
+            <!--<artifactId>spring-cloud-starter-config</artifactId>-->
+            <!--安全控制-->
+            <!--<artifactId>spring-boot-starter-security</artifactId>-->
+            <!--mq-->
+            <!--<artifactId>spring-boot-starter-amqp</artifactId>-->
+            <!--路由-->
+            <!--<artifactId>spring-cloud-starter-zuul</artifactId>-->
+
 
         </dependencies>
+
+
     </dependencyManagement>
 </project>
