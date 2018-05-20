@@ -19,6 +19,7 @@
         <module>OAuth-client</module>
         <module>api-gateway</module>
         <module>turbine-server</module>
+        <module>springboot-admin</module>
 
     </modules>
 
