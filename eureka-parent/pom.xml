@@ -21,6 +21,7 @@
             <properties>
                 <env>test</env>
                 <profiles.active>linux</profiles.active>
+                <spring-kafka-url>127.0.0.1:9092</spring-kafka-url>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -32,6 +33,7 @@
             <properties>
                 <env>dev</env>
                 <profiles.active>windows</profiles.active>
+                <spring-kafka-url>127.0.0.1:9092</spring-kafka-url>
             </properties>
         </profile>
         <!-- 生产环境 -->
@@ -40,6 +42,7 @@
             <properties>
                 <env>pro</env>
                 <profiles.active>linux</profiles.active>
+                <spring-kafka-url>127.0.0.1:9092</spring-kafka-url>
             </properties>
         </profile>
     </profiles>
@@ -152,9 +155,6 @@
 
     </dependencyManagement>
     <build>
-        <filters>
-            <filter>../eureka-parent/src/main/filters/filter-nanhang-${env}.properties</filter>
-        </filters>
         <resources>
             <!-- 对指定的资源文件进行资源替换 -->
             <resource>

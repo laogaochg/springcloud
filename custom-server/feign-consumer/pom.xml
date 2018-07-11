@@ -6,7 +6,7 @@
         <groupId>com.example</groupId>
         <artifactId>eureka-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath>../eureka-parent</relativePath>
+        <relativePath>../../eureka-parent</relativePath>
     </parent>
     <groupId>com.example</groupId>
     <artifactId>feign-consumer</artifactId>

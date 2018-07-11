@@ -6,7 +6,7 @@
         <groupId>com.example</groupId>
         <artifactId>eureka-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath>../eureka-parent</relativePath>
+        <relativePath>../../eureka-parent</relativePath>
     </parent>
     <groupId>com.example</groupId>
     <artifactId>eureka-base</artifactId>
@@ -21,6 +21,11 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
         </dependency>
     </dependencies>
 
