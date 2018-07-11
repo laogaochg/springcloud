@@ -2,17 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
-    <artifactId>eureka-project</artifactId>
+    <artifactId>custom-server</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
-    <name>eureka</name>
+    <name>custom-server</name>
     <modules>
-        <module>eureka-parent</module>
-        <module>base-server</module>
-        <module>provide-server</module>
-        <module>custom-server</module>
-        <module>manage-server</module>
-
+        <module>feign-consumer</module>
+        <module>restTemplate</module>
+        <module>config-server</module>
     </modules>
 
 </project>
