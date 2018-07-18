@@ -79,7 +79,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server -->
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-server</artifactId>
@@ -113,42 +112,6 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>2.6.1</version>
             </dependency>
-
-
-            <!-- 负载均衡-->
-            <!--<artifactId>spring-cloud-starter-ribbon</artifactId>-->
-            <!--断路器-->
-            <!--<artifactId>spring-cloud-starter-hystrix</artifactId>-->
-            <!--hystrix-dashboard 断路器 监控-->
-            <!--<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>-->
-            <!-- 断路器集群监控-->
-            <!--<artifactId>spring-cloud-starter-turbine</artifactId>-->
-            <!-- eureka注册和消费端引用包-->
-            <!--<artifactId>spring-cloud-starter-eureka</artifactId>-->
-            <!-- eureka注册中心引用包-->
-            <!--<artifactId>spring-cloud-starter-eureka-server</artifactId>-->
-            <!--单元测试-->
-            <!--<artifactId>spring-boot-starter-test</artifactId>-->
-            <!--<scope>test</scope>-->
-            <!--表示为web工程-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-web</artifactId>-->
-            <!--暴露各种指标 （监控）配置和使用 -->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
-            <!-- 声明式调用服务-->
-            <!--<artifactId>spring-cloud-starter-feign</artifactId>-->
-            <!-- 声明式调用服务-->
-            <!--<artifactId>spring-cloud-config-server</artifactId>-->
-            <!--配置中心-->
-            <!--<artifactId>spring-cloud-starter-config</artifactId>-->
-            <!--安全控制-->
-            <!--<artifactId>spring-boot-starter-security</artifactId>-->
-            <!--mq-->
-            <!--<artifactId>spring-boot-starter-amqp</artifactId>-->
-            <!--路由-->
-            <!--<artifactId>spring-cloud-starter-zuul</artifactId>-->
-
 
         </dependencies>
 
