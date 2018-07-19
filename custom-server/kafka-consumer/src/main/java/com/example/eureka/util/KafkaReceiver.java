@@ -15,6 +15,7 @@ import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
 import org.springframework.kafka.listener.MessageListenerContainer;
 import org.springframework.kafka.support.Acknowledgment;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -70,4 +71,23 @@ public class KafkaReceiver {
             container.stop();
         }
     }
+
+    /**
+     * 数据太多，开启多线程查询
+     */
+    /*
+    private List<DevicePortPo> getDevicePortPos(List<DeviceInfoPo> allList) throws Exception {
+        List<DevicePortPo> portPoList = new ArrayList<>();
+        List<Future<List<DevicePortPo>>> callableFuture = new ArrayList<>();
+        for (DeviceInfoPo infoPo : allList) {
+            Long deviceId = infoPo.getDeviceid().longValue();
+            Callable<List<DevicePortPo>> callableList = new QueryPortCallable(devicePortPoDao, deviceId);
+            callableFuture.add(threadPool.submit(callableList));
+        }
+        for (Future<List<DevicePortPo>> f : callableFuture) {
+            portPoList.addAll(f.get());
+        }
+        return portPoList;
+    }
+    */
 }
