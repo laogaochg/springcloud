@@ -118,6 +118,7 @@
 
     </dependencyManagement>
     <build>
+        <finalName>${artifactId}-${profiles.active}-${current.time}</finalName>
         <resources>
             <!-- 对指定的资源文件进行资源替换 -->
             <resource>
@@ -139,6 +140,27 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+
+            <!--打包时间插件-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.9.1</version>
+                <executions>
+                    <execution>
+                        <id>timestamp-property</id>
+                        <goals>
+                            <goal>timestamp-property</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <name>current.time</name>
+                    <pattern>yyyyMMdd</pattern>
+                    <timeZone>GMT+8</timeZone>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
