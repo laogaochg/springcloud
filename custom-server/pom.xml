@@ -10,7 +10,7 @@
         <module>feign-consumer</module>
         <module>restTemplate</module>
         <module>kafka-consumer</module>
-        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
 </project>

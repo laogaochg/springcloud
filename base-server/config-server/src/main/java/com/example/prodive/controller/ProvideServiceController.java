@@ -2,6 +2,7 @@ package com.example.prodive.controller;
 
 import com.example.eureka.dto.ExecuteResult;
 import com.example.eureka.dto.UserDto;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@RestController
+@Controller
 public class ProvideServiceController {
 
     @RequestMapping("/config-service/dev/master")

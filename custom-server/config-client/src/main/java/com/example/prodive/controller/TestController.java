@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Value("${from}")
+    @Value("${test-name}")
     private String from;
 
-    @RequestMapping("/from")
+    @RequestMapping("/test-name")
     public String from() {
         return this.from;
     }
