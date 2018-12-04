@@ -62,19 +62,24 @@ public class TestMain {
             row = sheet.createRow(rowCount++);
             for (int j = 0; j < data.get(i).size(); j++) {
                 Object o = data.get(i).get(j);
-                HSSFCell cell1 = row.createCell(j);
+                HSSFCell cellEntry = row.createCell(j);
                 if (o instanceof String) {
-                    cell1.setCellValue((String) o);
+                    cellEntry.setCellValue((String) o);
                 } else {
-                    cell1.setCellValue(Double.valueOf(o + ""));
+                    try {
+                        cellEntry.setCellValue(Double.valueOf(o + ""));
+                    } catch (Exception e) {
+                        cellEntry.setCellValue(o + "");
+                    }
                 }
-                cell1.setCellStyle(getBaseRowStyle(wb));
+
+                cellEntry.setCellStyle(getBaseRowStyle(wb));
             }
         }
-        int rows = rowCount++;
-        sheet.addMergedRegion(new CellRangeAddress(rows, rows, 0, 11)); //
-        rows = rowCount++;
-        sheet.addMergedRegion(new CellRangeAddress(rows, rows, 0, 11)); //
+        System.out.println(rowCount);
+        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount++, 0, 11)); //
+        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount++, 0, 11)); //
+        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount += 4, 0, 11)); //
         wb.write(new File("d:/a.xlsx"));
     }
 
