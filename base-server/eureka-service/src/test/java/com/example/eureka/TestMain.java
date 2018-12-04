@@ -3,7 +3,9 @@ package com.example.eureka;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import com.example.eureka.controller.ExcelUtil;
 import freemarker.template.utility.DateUtil;
@@ -29,20 +31,67 @@ import org.junit.Test;
 public class TestMain {
     @Test
     public void testAA() throws IOException {
+        String row1Value = "";
+        String row2Value = "";
         HSSFWorkbook wb = new HSSFWorkbook();
         // 第二步，在workbook中添加一个sheet,对应Excel文件中的sheet
-        HSSFSheet sheet = wb.createSheet("sheetName");
-        sheet.setColumnWidth(2,9000);
-//        sheet.setDefaultRowHeightInPoints((short)30);
-        // 第三步，在sheet中添加表头第0行,注意老版本poi对Excel的行数列数有限制
+        HSSFSheet sheet = wb.createSheet("sheet1");
+        sheet.setColumnWidth(2, 9000);
         sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, 11)); //
         sheet.addMergedRegion(new CellRangeAddress(1, 1, 0, 11)); //
-        HSSFRow row = sheet.createRow(0);
+//        String[] row3 = "日期,入库单,送货单,名称,规格型号,单位,数量,单价,件数,金额,备注".split(",");
+        String[] row3 = "2,3,4,7,99,单位,数量,单价,件数,金额,备注".split(",");
+        int rowCount = 0;
+        HSSFRow row = sheet.createRow(rowCount++);
         HSSFCell cell = row.createCell(0);
         row.setHeightInPoints((short) 30);
-        cell.setCellValue("产品编码+套餐编码+实例编码");
+        cell.setCellValue(row1Value);
         cell.setCellStyle(getFirstRowStyle(wb));
+        row = sheet.createRow(rowCount++);
+        cell = row.createCell(0);
+        cell.setCellValue(row2Value);
+        cell.setCellStyle(getFirstRowStyle(wb));
+        row = sheet.createRow(rowCount++);
+        for (int i = 0; i < row3.length; i++) {
+            HSSFCell cell1 = row.createCell(i);
+            cell1.setCellValue(row3[i]);
+            cell1.setCellStyle(getBaseRowStyle(wb));
+        }
+        List<List<Object>> data = getData();
+        for (int i = 0; i < data.size(); i++) {
+            row = sheet.createRow(rowCount++);
+            for (int j = 0; j < data.get(i).size(); j++) {
+                Object o = data.get(i).get(j);
+                HSSFCell cell1 = row.createCell(j);
+                if (o instanceof String) {
+                    cell1.setCellValue((String) o);
+                } else {
+                    cell1.setCellValue(Double.valueOf(o + ""));
+                }
+                cell1.setCellStyle(getBaseRowStyle(wb));
+            }
+        }
+        int rows = rowCount++;
+        sheet.addMergedRegion(new CellRangeAddress(rows, rows, 0, 11)); //
+        rows = rowCount++;
+        sheet.addMergedRegion(new CellRangeAddress(rows, rows, 0, 11)); //
         wb.write(new File("d:/a.xlsx"));
+    }
+
+    public List<List<Object>> getData() {
+        List<List<Object>> result = new ArrayList<>();
+        for (int i = 0; i < 12; i++) {
+            List<Object> row = new ArrayList<>();
+            for (int j = 0; j < 12; j++) {
+                if (j % 2 == 0) {
+                    row.add(j);
+                } else {
+                    row.add(j + "");
+                }
+            }
+            result.add(row);
+        }
+        return result;
     }
 
     /**
@@ -57,6 +106,16 @@ public class TestMain {
         font.setBold(true);//粗体显示
         font.setFontHeightInPoints((short) 18);//设置字体大小
         style.setFont(font);
+        return style;
+    }
+
+    /**
+     * 基础的样式
+     */
+    private HSSFCellStyle getBaseRowStyle(HSSFWorkbook wb) {
+        HSSFCellStyle style = wb.createCellStyle();
+        style.setAlignment(HorizontalAlignment.CENTER);
+        style.setVerticalAlignment(VerticalAlignment.CENTER);
         return style;
     }
 
