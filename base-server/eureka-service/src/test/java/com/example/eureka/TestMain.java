@@ -31,8 +31,11 @@ import org.junit.Test;
 public class TestMain {
     @Test
     public void testAA() throws IOException {
-        String row1Value = "";
-        String row2Value = "";
+        String row1Value = "row1Value";
+        String row2Value = "row2Value";
+        String end1 = "end1";
+        String end2 = "end2";
+        String end3 = "end3";
         HSSFWorkbook wb = new HSSFWorkbook();
         // 第二步，在workbook中添加一个sheet,对应Excel文件中的sheet
         HSSFSheet sheet = wb.createSheet("sheet1");
@@ -76,10 +79,12 @@ public class TestMain {
                 cellEntry.setCellStyle(getBaseRowStyle(wb));
             }
         }
-        System.out.println(rowCount);
-        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount++, 0, 11)); //
-        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount++, 0, 11)); //
-        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount += 4, 0, 11)); //
+        sheet.createRow(rowCount).createCell(0).setCellValue(end1);
+        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount++, 0, 11));
+        sheet.createRow(rowCount).createCell(0).setCellValue(end2);
+        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount++, 0, 11));
+        sheet.createRow(rowCount).createCell(0).setCellValue(end3);
+        sheet.addMergedRegion(new CellRangeAddress(rowCount, rowCount += 4, 0, 11));
         wb.write(new File("d:/a.xlsx"));
     }
 
