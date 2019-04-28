@@ -15,6 +15,8 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper;
 import org.springframework.data.mongodb.core.convert.MappingMongoConverter;
 import org.springframework.data.mongodb.core.mapping.MongoMappingContext;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.integration.redis.util.RedisLockRegistry;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.config.KafkaListenerContainerFactory;
@@ -33,6 +35,14 @@ import java.util.Date;
 public class BeanConfig {
     @Value("${mongodb.connectOutTime}")
     private String connectOutTime;
+
+
+    @Bean
+    public RedisLockRegistry redisLockRegistry(RedisConnectionFactory redisConnectionFactory) {
+        //redis里面的超时时间,就是操作方法允许的最大时间,单位毫秒
+        long expireAfter = 60 * 1000L;
+        return new RedisLockRegistry(redisConnectionFactory, "spring-cloud", expireAfter);
+    }
 
     /**
      * kafka批量处理工厂
