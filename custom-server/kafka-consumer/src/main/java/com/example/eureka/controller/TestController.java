@@ -22,6 +22,7 @@ public class TestController {
     @RequestMapping("/testClock")
     public String testClock() throws InterruptedException {
         String key = "redis-clock-key";
+        //
         Lock lock = redisLockRegistry.obtain(key);
         //尝试得到锁,尝试10秒
         if (lock.tryLock(10, TimeUnit.SECONDS)) {
