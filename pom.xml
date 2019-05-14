@@ -8,10 +8,13 @@
     <name>eureka</name>
     <modules>
         <module>eureka-parent</module>
-        <module>base-server</module>
-        <module>provide-server</module>
-        <module>custom-server</module>
-        <module>manage-server</module>
+        <module>api-gateway</module>
+        <module>eureka</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>restTemplate</module>
+        <module>springboot-admin</module>
+        <module>turbine-server</module>
 
     </modules>
 
