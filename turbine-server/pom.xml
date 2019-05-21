@@ -18,11 +18,6 @@
 
 
     <dependencies>
-        <!--基础项目-->
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>eureka-base</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>

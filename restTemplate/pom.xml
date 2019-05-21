@@ -19,16 +19,19 @@
 
 
     <dependencies>
-        <!--基础项目-->
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>eureka-base</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
-
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <!--声明式调用服务-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
 
         <dependency>
@@ -54,10 +57,10 @@
             <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
         <!--hystrix-dashboard 监控-->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>

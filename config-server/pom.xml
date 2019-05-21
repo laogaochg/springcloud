@@ -20,11 +20,6 @@
 
 
     <dependencies>
-        <!-- 基础项目-->
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>eureka-base</artifactId>
-        </dependency>
 
         <!--表示为web工程-->
         <dependency>

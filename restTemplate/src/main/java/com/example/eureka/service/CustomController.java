@@ -2,6 +2,7 @@ package com.example.eureka.service;
 
 import com.example.eureka.util.ExecuteResult;
 import com.example.eureka.util.RestTemplateUtil;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +19,14 @@ import java.util.Map;
 public class CustomController {
     @Autowired
     private RestTemplate restTemplate;
+    @Autowired
+    private TestFeignService testFeignService;
 
+    @RequestMapping("/testFeignService")
+    public String testFeignService() {
+        testFeignService.test("11");
+        return "1";
+    }
 
     @RequestMapping("/getUser")
     public String getUser11() {
@@ -31,18 +39,20 @@ public class CustomController {
     @GetMapping(value = "/find")
     public UserDto find() {
         //url中对应api提供者的名称，全大写
-        UserDto u = new UserDto("111","天天"+ "com.example.eureka.service.CustomController.find()");
+        UserDto u = new UserDto("111", "天天" + "com.example.eureka.service.CustomController.find()");
         return u;
     }
+
     @RequestMapping("getOrderInnDayList")
-    public List<UserDto> getOrderInnDayList(String orderCode, Integer memberId){
+    public List<UserDto> getOrderInnDayList(String orderCode, Integer memberId) {
         Map<String, Object> params = new HashMap<>();
         params.put("orderCode", orderCode);
         params.put("memberId", memberId);
         String url = "http://CLOUD-SIMPLE-SERVICE/getUserExecute";
         //use postForList
         ExecuteResult<List<UserDto>> result = RestTemplateUtil.postForList(url, params,
-                new ParameterizedTypeReference<ExecuteResult<List<UserDto>>>(){});
+                new ParameterizedTypeReference<ExecuteResult<List<UserDto>>>() {
+                });
         return result.getData();
     }
 
@@ -51,11 +61,12 @@ public class CustomController {
      *
      * @return
      */
-    @GetMapping(value = "/test")
+    @RequestMapping("/test")
     @ResponseBody
-    public String test() {
+    public String test() throws InterruptedException {
+        Thread.sleep(5000);
         //url中对应api提供者的名称，全大写
-        return restTemplate.getForEntity("http://www.baidu.com/",String.class).getBody();
+        return "";
     }
 
 

@@ -58,12 +58,17 @@
     </properties>
     <dependencyManagement>
         <dependencies>
-            <!-- 基础项目-->
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>eureka-base</artifactId>
-                <version>${project.version}</version>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.6</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.47</version>
+            </dependency>
+
             <!--版本管理-->
             <dependency>
                 <groupId>io.spring.platform</groupId>
@@ -128,6 +133,15 @@
                 <includes>
                     <include>**/*.properties</include>
                     <include>*.properties</include>
+                </includes>
+            </resource>
+            <resource><!-- 对ftl文件和动态sql文件进行直接复制 -->
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>**/templates/**/*.*</include>
+                    <include>**/static/**/*.*</include>
+                    <include>**/*.xml</include>
                 </includes>
             </resource>
         </resources>
