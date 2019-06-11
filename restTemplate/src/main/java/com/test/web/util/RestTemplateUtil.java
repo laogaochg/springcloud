@@ -1,4 +1,4 @@
-package com.example.eureka.util;
+package com.test.web.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;

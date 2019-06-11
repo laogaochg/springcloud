@@ -1,4 +1,4 @@
-package com.example.eureka.util;
+package com.test.web.util;
 
 /**
  * @Author: LaoGaoChuang

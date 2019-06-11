@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 控制台输出配置 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %p %c.%line: %msg%n</Pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!-- 控制台输出日志级别 -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <!--<appender-ref ref="FtpFileHandler" />-->
+        <!--<appender-ref ref="ErrorHandler" />-->
+    </root>
+    <!-- 指定项目中某个包，当有日志操作行为时的日志记录级别 -->
+    <!--#去除垃圾日志-->
+    <logger name="org" level="INFO"/>
+    <logger name="sun" level="INFO"/>
+    <logger name="com.netflix" level="DEBUG"/>
+    <logger name="javax" level="ERROR"/>
+    <logger name="java" level="ERROR"/>
+    <logger name="com.sun" level="ERROR"/>
+
+</configuration>

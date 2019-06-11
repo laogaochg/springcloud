@@ -1,8 +1,7 @@
-package com.example.eureka.service;
+package com.test.web.service;
 
-import com.example.eureka.util.ExecuteResult;
-import com.example.eureka.util.RestTemplateUtil;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.test.web.util.ExecuteResult;
+import com.test.web.util.RestTemplateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,10 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import javax.servlet.http.HttpServletRequest;
 
 @RestController
 public class CustomController {
@@ -22,10 +25,29 @@ public class CustomController {
     @Autowired
     private TestFeignService testFeignService;
 
-    @RequestMapping("/testFeignService")
-    public String testFeignService() {
-        testFeignService.test("11");
-        return "1";
+    @RequestMapping("/loginSuccess")
+    public String testFeignService(HttpServletRequest r) {
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        request.getSession().setAttribute("user", "1");
+        return "登录成功";
+    }
+
+    @RequestMapping("/userInfo")
+    public String testFeignService1() {
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        return "session:" + request.getSession().getAttribute("user") + "";
+    }
+
+    @RequestMapping("/index")
+    public String index() throws IOException {
+        ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        HttpServletRequest request = requestAttributes.getRequest();
+        if ("1".equals(request.getSession().getAttribute("user"))) {
+            requestAttributes.getResponse().sendRedirect("/userInfo");
+            return "转发个人主页";
+        }else{
+            return "登陆页面";
+        }
     }
 
     @RequestMapping("/getUser")
@@ -39,7 +61,7 @@ public class CustomController {
     @GetMapping(value = "/find")
     public UserDto find() {
         //url中对应api提供者的名称，全大写
-        UserDto u = new UserDto("111", "天天" + "com.example.eureka.service.CustomController.find()");
+        UserDto u = new UserDto("111", "天天" + "com.test.web.service.CustomController.find()");
         return u;
     }
 

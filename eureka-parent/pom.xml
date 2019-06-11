@@ -133,6 +133,7 @@
                 <includes>
                     <include>**/*.properties</include>
                     <include>*.properties</include>
+                    <include>*.yml</include>
                 </includes>
             </resource>
             <resource><!-- 对ftl文件和动态sql文件进行直接复制 -->
